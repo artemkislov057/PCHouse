@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+de9Cw8b/fdAI1f6Wl6flROuPHzOagiVaJWrMr3Xa7AMkISbKbM8kx4u4a9v8PC6XUg5oKOmw6g7IImedd4dGw==",
+  "dgSpecHash": "QvZ21uAu1J/Oj3cbCp4cCwnqpuklPpmsGGHf6fgw+anu63o7Fs3Uj8/sYSsAplWgNVlvJPfAGwc1usc6vHYJ5g==",
   "success": true,
-  "projectFilePath": "E:\\MyPrograms\\C#\\TestRTF_bot\\TestRTF_bot\\TestRTF_bot.csproj",
+  "projectFilePath": "E:\\PCHouse\\TestRTF_bot\\TestRTF_bot\\TestRTF_bot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\artem\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\artem\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

@@ -14,7 +14,7 @@ namespace TestRTF_bot.model
         Accessories<VideoCard> videoCards;
         Accessories<RAM> rams;
         Accessories<PowerModule> powerModules;
-        Accessories<Cooling> coolings;
+        Accessories<ProcessorCooling> coolings;
         Accessories<Case> cases;
     }
 }

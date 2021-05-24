@@ -4,20 +4,17 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TestRTF_bot.Models;
 
-namespace TestRTF_bot.Models.Accessories
+namespace TestRTF_bot.model.Components
 {
-    class VideoCard : IComponent
+    class M2 : IComponent
     {
         [Key]
         public int Id { get; set; }
         public string Name { get; set; }
         public int Cost { get; set; }
         public int Rating { get; set; }
-        public string Power { get; set; }
         public int Length { get; set; }
-        public int Width { get; set; }
-        public int Height { get; set; }
-        public int EnergyConsumption { get; set; }
     }
 }

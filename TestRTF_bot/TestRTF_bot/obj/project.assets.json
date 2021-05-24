@@ -7289,11 +7289,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MyPrograms\\C#\\TestRTF_bot\\TestRTF_bot\\TestRTF_bot.csproj",
+      "projectUniqueName": "E:\\PCHouse\\TestRTF_bot\\TestRTF_bot\\TestRTF_bot.csproj",
       "projectName": "TestRTF_bot",
-      "projectPath": "E:\\MyPrograms\\C#\\TestRTF_bot\\TestRTF_bot\\TestRTF_bot.csproj",
+      "projectPath": "E:\\PCHouse\\TestRTF_bot\\TestRTF_bot\\TestRTF_bot.csproj",
       "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
-      "outputPath": "E:\\MyPrograms\\C#\\TestRTF_bot\\TestRTF_bot\\obj\\",
+      "outputPath": "E:\\PCHouse\\TestRTF_bot\\TestRTF_bot\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
