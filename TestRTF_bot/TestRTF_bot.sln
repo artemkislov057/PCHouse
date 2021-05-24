@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRTF_bot", "TestRTF_bot\TestRTF_bot.csproj", "{94E4C10A-5C6B-4F3E-AB28-FAC1768DC772}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94E4C10A-5C6B-4F3E-AB28-FAC1768DC772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94E4C10A-5C6B-4F3E-AB28-FAC1768DC772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94E4C10A-5C6B-4F3E-AB28-FAC1768DC772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94E4C10A-5C6B-4F3E-AB28-FAC1768DC772}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0BD3AFC-80B7-4C89-AF81-5EA4C5010FF8}
+	EndGlobalSection
+EndGlobal
