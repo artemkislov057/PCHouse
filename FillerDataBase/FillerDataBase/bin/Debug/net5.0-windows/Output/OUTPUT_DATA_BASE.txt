@@ -1,0 +1,24 @@
+Процессор: intel core i5
+Материнская плата: 
+Видеокарта: 1050Ti
+RAM: 
+HDD: 
+SSD: 
+Охлаждение: 
+Блок питания: 
+Корпус: 
+Цель:  Gaming
+Бюджет: <40
+
+Процессор: Intel Core i5-9400F 2.9(4.1)GHz 9MB s1151
+Материнская плата: Asus PRIME H310M-R R2.0
+Видеокарта: MSI GeForce GTX 1660 Gaming X 6144MB
+RAM: HyperX DDR4 16GB (2x8GB) 3200Mhz Fury Black
+HDD: Seagate Barracuda 2TB 256MB 7200RPM 3.5"
+SSD: Kingston SSDNow A400 TLC 240GB 2.5''
+Охлаждение: Deepcool GAMMAXX 300
+Блок питания: CHIEFTEC Proton 600W (BDF-600S)
+Корпус: Deepcool MATREXX 55 V3 ADD-RGB 3F без БП Black
+Цель:  Gaming
+Бюджет: 50-60
+
