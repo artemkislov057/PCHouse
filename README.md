@@ -1,4 +1,4 @@
-# :fire: PCHouse Telegramm-bot :fire:   
+# :fire: PCHouse Telegram-bot :fire:   
 ### :green_book: Название проекта
 **PCHouse**    
 ### :green_book: Название команды
