@@ -15,8 +15,8 @@ namespace TestRTF_bot.model.Components
         public string Name { get; set; }
         public int Cost { get; set; }
         public int Rating { get; set; }
-        public int FanDiameter { get; set; }
-        public string TypeOfSupply { get; set; }
+        public int FanSize { get; set; }
+        public string TypeOfPowerSupply { get; set; } //тип питания 
         public int EnergyConsumption { get; set; }
     }
 }

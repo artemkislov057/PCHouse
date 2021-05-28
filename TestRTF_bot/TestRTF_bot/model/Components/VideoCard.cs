@@ -14,9 +14,8 @@ namespace TestRTF_bot.Models.Accessories
         public string Name { get; set; }
         public int Cost { get; set; }
         public int Rating { get; set; }
-        public string Power { get; set; }
-        public int Length { get; set; }
-        public int Width { get; set; }
+        public int Length { get; set; } // до передней стенки корпуса
+        public int Width { get; set; } // до боковой стенки корпуса
         public int Height { get; set; }
         public int EnergyConsumption { get; set; }
     }

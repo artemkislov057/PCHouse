@@ -15,6 +15,12 @@ namespace TestRTF_bot.Models.Accessories
         public int Cost { get; set; }
         public int Rating { get; set; }
         public string Socket { get; set; }
+        public string Power { get; set; }
+        public int CoolerHeight { get; set; } // до стенки корпуса
+        public int CoolerWidth { get; set; } // до видеокарты и радиатора питальника процессора
+        public int CoolerLength { get; set; } // до слотов ОЗУ 
+        public int LuqidCoolingCountSlots { get; set; }
+        public int LuqidCoolingSize { get; set; }
 
     }
 }

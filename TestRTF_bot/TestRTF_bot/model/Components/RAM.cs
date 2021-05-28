@@ -16,7 +16,7 @@ namespace TestRTF_bot.Models.Accessories
         public int Rating { get; set; }
         public string TypeMemory { get; set; }
         public int Frequency { get; set; }
-        public string Latency { get; set; }
+        public string Timings { get; set; }
         public int EnergyConsumption { get; set; }
     }
 }
