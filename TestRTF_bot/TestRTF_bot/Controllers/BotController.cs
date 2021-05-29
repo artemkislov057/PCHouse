@@ -50,9 +50,10 @@ namespace TestRTF_bot.Controllers
                         break;
                     case State.GettingComponents:
                         SetTarget(message.Text);
-                        await client.SendTextMessageAsync(
+                        await client.SendPhotoAsync(
                             message.Chat.Id,
-                            String.Format("Вам подойдет следующая конфигурация: " + GetBestConfigurationPC(target, Budget)),
+                            caption: String.Format("Вам подойдет следующая конфигурация: " + GetBestConfigurationPC(target, Budget)),
+                            photo: Pictures.GetRandomPictureURL(),
                             replyMarkup: Buttons.GetAgainButton());
                         state = State.Start;
                         break;

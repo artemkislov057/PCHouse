@@ -9,12 +9,12 @@ namespace TestRTF_bot.model
 {
     class DataBase
     {
-        Accessories<Processor> processors;
-        Accessories<Motherboard> motherboards;
-        Accessories<VideoCard> videoCards;
-        Accessories<RAM> rams;
-        Accessories<PowerModule> powerModules;
-        Accessories<ProcessorCooling> coolings;
-        Accessories<Case> cases;
+        IEnumerable<Processor> processors; 
+        IEnumerable<Motherboard> motherboards;
+        IEnumerable<VideoCard> videoCards;
+        IEnumerable<RAM> rams;
+        IEnumerable<PowerModule> powerModules;
+        IEnumerable<ProcessorCooling> coolings;
+        IEnumerable<Case> cases;
     }
 }
