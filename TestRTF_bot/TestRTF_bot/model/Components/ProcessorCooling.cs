@@ -22,5 +22,9 @@ namespace TestRTF_bot.Models.Accessories
         public int LuqidCoolingCountSlots { get; set; }
         public int LuqidCoolingSize { get; set; }
 
+        public bool IsCompatible(IComponent otherComponent)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

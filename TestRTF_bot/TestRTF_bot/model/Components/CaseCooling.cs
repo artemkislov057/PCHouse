@@ -18,5 +18,10 @@ namespace TestRTF_bot.model.Components
         public int FanSize { get; set; }
         public string TypeOfPowerSupply { get; set; } //тип питания 
         public int EnergyConsumption { get; set; }
+
+        public bool IsCompatible(IComponent otherComponent)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

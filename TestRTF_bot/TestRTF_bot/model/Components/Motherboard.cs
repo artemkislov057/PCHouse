@@ -22,5 +22,10 @@ namespace TestRTF_bot.Models.Accessories
         public string ARRAY_CaseCoolings { get; set; }
         public int SataInterfaceCount { get; set; }
         public int M2Length { get; set; }
+
+        public bool IsCompatible(IComponent otherComponent)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace TestRTF_bot.Models.Accessories
 {
@@ -21,5 +16,10 @@ namespace TestRTF_bot.Models.Accessories
         public int MaximumHeightOfTowerCooler { get; set; }
         public int MaximumWidthOfVideoCard { get; set; }
         public int MaximumHeightOfVideoCard { get; set; }
+
+        public bool IsCompatible(IComponent otherComponent)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

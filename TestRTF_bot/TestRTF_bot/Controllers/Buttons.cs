@@ -55,7 +55,7 @@ namespace TestRTF_bot.Controllers
             {
                 Keyboard = new List<List<KeyboardButton>>()
                 {
-                    new List<KeyboardButton>() { new KeyboardButton() { Text = "Начать снова", } }
+                    new List<KeyboardButton>() { new KeyboardButton() { Text = "Начать снова" } }
                 }
             };
         }

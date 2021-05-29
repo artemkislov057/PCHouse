@@ -48,6 +48,18 @@
               "target": "Package",
               "version": "[5.0.6, )"
             },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.10.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
             "Telegram.Bot": {
               "target": "Package",
               "version": "[15.7.1, )"

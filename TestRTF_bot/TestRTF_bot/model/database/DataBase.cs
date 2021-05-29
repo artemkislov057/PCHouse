@@ -3,18 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TestRTF_bot.model.database;
 using TestRTF_bot.Models.Accessories;
 
 namespace TestRTF_bot.model
 {
     class DataBase
     {
-        IEnumerable<Processor> processors; 
-        IEnumerable<Motherboard> motherboards;
-        IEnumerable<VideoCard> videoCards;
-        IEnumerable<RAM> rams;
-        IEnumerable<PowerModule> powerModules;
-        IEnumerable<ProcessorCooling> coolings;
-        IEnumerable<Case> cases;
+        public Components<Processor> processors;
+        public Components<Motherboard> motherboards;
+        public Components<VideoCard> videoCards;
+        public Components<RAM> rams;
+        public Components<PowerModule> powerModules;
+        public Components<ProcessorCooling> coolings;
+        public Components<Case> cases;
     }
 }

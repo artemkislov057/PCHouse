@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Telegram.Bot;
 using Telegram.Bot.Args;
-using Telegram.Bot.Types.ReplyMarkups;
 using TestRTF_bot.Models;
 using TestRTF_bot.model.database;
 
@@ -33,6 +29,8 @@ namespace TestRTF_bot.Controllers
                 switch (state)
                 {
                     case State.Start:
+                        if (message.Text != "Начать снова" && message.Text != "/start")
+                            break;
                         await client.SendTextMessageAsync(
                             message.Chat.Id,
                             "Введите свой бюджет",
@@ -45,7 +43,6 @@ namespace TestRTF_bot.Controllers
                             "Для чего вам нужен ПК?",
                             replyMarkup: Buttons.GetTargetButtons());
                         state = State.GettingComponents;
-                        
                         SetBudget(message.Text);
                         break;
                     case State.GettingComponents:

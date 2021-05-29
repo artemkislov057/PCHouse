@@ -17,5 +17,10 @@ namespace TestRTF_bot.Models.Accessories
         public string Socket { get; set; }
         public double RamFrequency { get; set; }
         public int EnergyConsumption { get; set; }
+
+        public bool IsCompatible(IComponent otherComponent)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

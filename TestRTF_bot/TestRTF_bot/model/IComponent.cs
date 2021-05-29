@@ -14,5 +14,6 @@ namespace TestRTF_bot.Models
         public string Name { get; set; }
         public int Cost { get; set; }
         public int Rating { get; set; }
+        public bool IsCompatible(IComponent otherComponent);
     }
 }

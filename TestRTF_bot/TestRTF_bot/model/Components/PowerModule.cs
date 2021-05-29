@@ -18,6 +18,10 @@ namespace TestRTF_bot.Models.Accessories
         public string PinPowerCP { get; set; }
         public string PinPowerVideoCard { get; set; }
         public int SataCount { get; set; }
-        
+
+        public bool IsCompatible(IComponent otherComponent)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

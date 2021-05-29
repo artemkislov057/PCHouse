@@ -18,5 +18,10 @@ namespace TestRTF_bot.Models.Accessories
         public int Frequency { get; set; }
         public string Timings { get; set; }
         public int EnergyConsumption { get; set; }
+
+        public bool IsCompatible(IComponent otherComponent)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

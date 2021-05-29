@@ -16,5 +16,10 @@ namespace TestRTF_bot.model.Components
         public int Cost { get; set; }
         public int Rating { get; set; }
         public int Length { get; set; }
+
+        public bool IsCompatible(IComponent otherComponent)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
