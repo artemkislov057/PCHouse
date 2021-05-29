@@ -90,7 +90,7 @@ namespace TestRTF_bot.model
                     }
                 }
             }
-            return result.OrderBy(x => x.Rating).Take(5).ToArray();
+            return result.OrderByDescending(x => x.Rating).Take(5).ToArray();
         }
 
         
