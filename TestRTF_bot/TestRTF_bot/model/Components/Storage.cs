@@ -7,7 +7,7 @@ using TestRTF_bot.Models;
 
 namespace TestRTF_bot.model.Components
 {
-    class Strorage : IComponent
+    class Storage : IComponent
     {
         public int Id { get; set; }
         public string Name { get; set; }
