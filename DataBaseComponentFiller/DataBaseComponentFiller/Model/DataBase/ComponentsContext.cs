@@ -17,25 +17,34 @@ namespace DataBaseComponentFiller.Model.DataBase
             //optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=helloappdb;Trusted_Connection=True;");
         }
 
-        [Table]
+        [Table("Процессор")]
         public virtual DbSet<Processor> Processors { get; set; }
-        [Table]
+
+        [Table("Материнская плата")]
         public virtual DbSet<Motherboard> Motherboards { get; set; }
-        [Table]
+
+        [Table("Видеокарта")]
         public virtual DbSet<VideoCard> VideoCards { get; set; }
-        [Table]
+
+        [Table("Оперативная память")]
         public virtual DbSet<RAM> RAMs { get; set; }
-        [Table]
+
+        [Table("Блок питания")]
         public virtual DbSet<PowerModule> PowerModules { get; set; }
-        [Table]
+
+        [Table("Охлаждение процессора")]
         public virtual DbSet<ProcessorCooling> ProcessorCoolings { get; set; }
-        [Table]
+
+        [Table("Корпус")]
         public virtual DbSet<Case> Cases { get; set; }
-        [Table]
+
+        [Table("Память (HDD/SSD)")]
         public virtual DbSet<Storage> Storages { get; set; }
-        [Table]
+
+        [Table("M2")]
         public virtual DbSet<M2> M2Collection { get; set; }
-        [Table]
+
+        [Table("Охлаждение корпуса")]
         public virtual DbSet<CaseCooling> CaseCoolings { get; set; }
     }
 }

@@ -33,9 +33,7 @@ namespace DataBaseComponentFiller.ViewController
                 Power = textBox5.Text,
                 CoolerHeight = int.Parse(textBox6.Text),
                 CoolerWidth = int.Parse(textBox7.Text),
-                CoolerLength = int.Parse(textBox8.Text),
-                LuqidCoolingCountSlots = int.Parse(textBox9.Text),
-                LuqidCoolingSize = int.Parse(textBox10.Text)
+                CoolerLength = int.Parse(textBox8.Text)
             };
             processorCoolings.Add(processorCooling);
         }

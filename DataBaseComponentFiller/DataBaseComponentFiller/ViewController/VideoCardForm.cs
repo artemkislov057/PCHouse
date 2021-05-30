@@ -31,7 +31,8 @@ namespace DataBaseComponentFiller.ViewController
                 Length = int.Parse(textBox4.Text),
                 Width = int.Parse(textBox5.Text),
                 Height = int.Parse(textBox6.Text),
-                EnergyConsumption = int.Parse(textBox7.Text)
+                EnergyConsumption = int.Parse(textBox7.Text),
+                PinPowerVideoCard = textBox8.Text
             };
             videoCards.Add(videoCard);
         }

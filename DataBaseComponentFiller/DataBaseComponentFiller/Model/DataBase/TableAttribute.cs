@@ -8,5 +8,11 @@ namespace DataBaseComponentFiller.Model.DataBase
 {
     public class TableAttribute : Attribute
     {
+        public TableAttribute(string name)
+        {
+            Name = name;
+        }
+
+        public readonly string Name;
     }
 }

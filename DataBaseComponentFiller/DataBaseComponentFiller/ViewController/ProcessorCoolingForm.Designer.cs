@@ -37,8 +37,6 @@ namespace DataBaseComponentFiller.ViewController
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -47,8 +45,6 @@ namespace DataBaseComponentFiller.ViewController
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
             this.addButton = new System.Windows.Forms.Button();
             this.undoButton = new System.Windows.Forms.Button();
             this.updateButton = new System.Windows.Forms.Button();
@@ -127,24 +123,6 @@ namespace DataBaseComponentFiller.ViewController
             this.label8.TabIndex = 7;
             this.label8.Text = "Длина (до слотов ОЗУ)";
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(12, 248);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(237, 15);
-            this.label9.TabIndex = 8;
-            this.label9.Text = "Количество слотов водяного охлаждения";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(12, 277);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(171, 15);
-            this.label10.TabIndex = 9;
-            this.label10.Text = "Размер водяного охлаждения";
-            // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(364, 12);
@@ -201,25 +179,11 @@ namespace DataBaseComponentFiller.ViewController
             this.textBox8.Size = new System.Drawing.Size(424, 23);
             this.textBox8.TabIndex = 17;
             // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(364, 245);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(424, 23);
-            this.textBox9.TabIndex = 18;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(364, 274);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(424, 23);
-            this.textBox10.TabIndex = 19;
-            // 
             // addButton
             // 
-            this.addButton.Location = new System.Drawing.Point(12, 303);
+            this.addButton.Location = new System.Drawing.Point(12, 245);
             this.addButton.Name = "addButton";
-            this.addButton.Size = new System.Drawing.Size(179, 112);
+            this.addButton.Size = new System.Drawing.Size(179, 120);
             this.addButton.TabIndex = 20;
             this.addButton.Text = "Добавить";
             this.addButton.UseVisualStyleBackColor = true;
@@ -227,9 +191,9 @@ namespace DataBaseComponentFiller.ViewController
             // 
             // undoButton
             // 
-            this.undoButton.Location = new System.Drawing.Point(197, 303);
+            this.undoButton.Location = new System.Drawing.Point(197, 245);
             this.undoButton.Name = "undoButton";
-            this.undoButton.Size = new System.Drawing.Size(176, 112);
+            this.undoButton.Size = new System.Drawing.Size(176, 120);
             this.undoButton.TabIndex = 21;
             this.undoButton.Text = "Отменить";
             this.undoButton.UseVisualStyleBackColor = true;
@@ -237,9 +201,9 @@ namespace DataBaseComponentFiller.ViewController
             // 
             // updateButton
             // 
-            this.updateButton.Location = new System.Drawing.Point(379, 303);
+            this.updateButton.Location = new System.Drawing.Point(379, 245);
             this.updateButton.Name = "updateButton";
-            this.updateButton.Size = new System.Drawing.Size(190, 112);
+            this.updateButton.Size = new System.Drawing.Size(190, 120);
             this.updateButton.TabIndex = 22;
             this.updateButton.Text = "Обновить БД";
             this.updateButton.UseVisualStyleBackColor = true;
@@ -247,9 +211,9 @@ namespace DataBaseComponentFiller.ViewController
             // 
             // deleteButton
             // 
-            this.deleteButton.Location = new System.Drawing.Point(575, 303);
+            this.deleteButton.Location = new System.Drawing.Point(575, 245);
             this.deleteButton.Name = "deleteButton";
-            this.deleteButton.Size = new System.Drawing.Size(213, 112);
+            this.deleteButton.Size = new System.Drawing.Size(213, 120);
             this.deleteButton.TabIndex = 23;
             this.deleteButton.Text = "Удалить таблицу охлаждения процессора";
             this.deleteButton.UseVisualStyleBackColor = true;
@@ -259,13 +223,11 @@ namespace DataBaseComponentFiller.ViewController
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 427);
+            this.ClientSize = new System.Drawing.Size(800, 377);
             this.Controls.Add(this.deleteButton);
             this.Controls.Add(this.updateButton);
             this.Controls.Add(this.undoButton);
             this.Controls.Add(this.addButton);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox6);
@@ -274,8 +236,6 @@ namespace DataBaseComponentFiller.ViewController
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -301,8 +261,6 @@ namespace DataBaseComponentFiller.ViewController
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
@@ -311,8 +269,6 @@ namespace DataBaseComponentFiller.ViewController
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Button addButton;
         private System.Windows.Forms.Button undoButton;
         private System.Windows.Forms.Button updateButton;

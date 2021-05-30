@@ -23,6 +23,10 @@ namespace TestRTF_bot.Models.Accessories
         public int SataInterfaceCount { get; set; }
         public int M2Length { get; set; }
         public string FormFactor { get; set; }
+        public string PinPowerCP { get; set; }
+        public int CoolerHeight { get; set; }
+        public int CoolerWidth { get; set; }
+        public int CoolerLength { get; set; }
 
         public bool IsCompatible(IComponent otherComponent)
         {

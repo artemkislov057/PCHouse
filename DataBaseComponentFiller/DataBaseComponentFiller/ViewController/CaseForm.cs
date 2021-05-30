@@ -22,11 +22,6 @@ namespace DataBaseComponentFiller.ViewController
 
         private List<Case> cases;
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            richTextBox3.Enabled = ((CheckBox)sender).Checked;
-        }
-
         private void addButton_Click(object sender, EventArgs e)
         {
             var body = new Case()
@@ -40,9 +35,8 @@ namespace DataBaseComponentFiller.ViewController
                 MaximumHeightOfTowerCooler = int.Parse(textBox4.Text),
                 MaximumWidthOfVideoCard = int.Parse(textBox5.Text),
                 MaximumHeightOfVideoCard = int.Parse(textBox6.Text),
+                MaximumLengthOfVideoCard = int.Parse(textBox7.Text)
             };
-            if (body.PossibilityOfInstallationWaterCooling)
-                body.ARRAYWaterCoolingSlotsAndSize = richTextBox3.Text;
             cases.Add(body);
         }
 

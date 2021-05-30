@@ -47,6 +47,8 @@ namespace DataBaseComponentFiller.ViewController
             this.undoButton = new System.Windows.Forms.Button();
             this.updateButton = new System.Windows.Forms.Button();
             this.deleteButton = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -163,9 +165,9 @@ namespace DataBaseComponentFiller.ViewController
             // 
             // addButton
             // 
-            this.addButton.Location = new System.Drawing.Point(12, 215);
+            this.addButton.Location = new System.Drawing.Point(12, 244);
             this.addButton.Name = "addButton";
-            this.addButton.Size = new System.Drawing.Size(178, 102);
+            this.addButton.Size = new System.Drawing.Size(178, 90);
             this.addButton.TabIndex = 14;
             this.addButton.Text = "Добавить";
             this.addButton.UseVisualStyleBackColor = true;
@@ -173,9 +175,9 @@ namespace DataBaseComponentFiller.ViewController
             // 
             // undoButton
             // 
-            this.undoButton.Location = new System.Drawing.Point(196, 215);
+            this.undoButton.Location = new System.Drawing.Point(196, 244);
             this.undoButton.Name = "undoButton";
-            this.undoButton.Size = new System.Drawing.Size(177, 102);
+            this.undoButton.Size = new System.Drawing.Size(177, 90);
             this.undoButton.TabIndex = 15;
             this.undoButton.Text = "Отменить";
             this.undoButton.UseVisualStyleBackColor = true;
@@ -183,9 +185,9 @@ namespace DataBaseComponentFiller.ViewController
             // 
             // updateButton
             // 
-            this.updateButton.Location = new System.Drawing.Point(379, 215);
+            this.updateButton.Location = new System.Drawing.Point(379, 244);
             this.updateButton.Name = "updateButton";
-            this.updateButton.Size = new System.Drawing.Size(197, 102);
+            this.updateButton.Size = new System.Drawing.Size(197, 90);
             this.updateButton.TabIndex = 16;
             this.updateButton.Text = "Обновить БД";
             this.updateButton.UseVisualStyleBackColor = true;
@@ -193,19 +195,37 @@ namespace DataBaseComponentFiller.ViewController
             // 
             // deleteButton
             // 
-            this.deleteButton.Location = new System.Drawing.Point(582, 215);
+            this.deleteButton.Location = new System.Drawing.Point(582, 244);
             this.deleteButton.Name = "deleteButton";
-            this.deleteButton.Size = new System.Drawing.Size(206, 102);
+            this.deleteButton.Size = new System.Drawing.Size(206, 90);
             this.deleteButton.TabIndex = 17;
             this.deleteButton.Text = "Удалить таблицу видеокарт";
             this.deleteButton.UseVisualStyleBackColor = true;
             this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(12, 218);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(112, 15);
+            this.label8.TabIndex = 18;
+            this.label8.Text = "PinPowerVideoCard";
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(159, 215);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(629, 23);
+            this.textBox8.TabIndex = 19;
+            // 
             // VideoCardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 329);
+            this.ClientSize = new System.Drawing.Size(800, 346);
+            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.deleteButton);
             this.Controls.Add(this.updateButton);
             this.Controls.Add(this.undoButton);
@@ -251,5 +271,7 @@ namespace DataBaseComponentFiller.ViewController
         private System.Windows.Forms.Button undoButton;
         private System.Windows.Forms.Button updateButton;
         private System.Windows.Forms.Button deleteButton;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox textBox8;
     }
 }

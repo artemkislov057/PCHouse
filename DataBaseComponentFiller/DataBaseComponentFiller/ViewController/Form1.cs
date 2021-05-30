@@ -95,15 +95,43 @@ namespace DataBaseComponentFiller
                 var tables = typeof(ComponentsContext).GetProperties()
                                                       .Where(x => x.GetCustomAttributes(true)
                                                                    .Any(x => x.GetType() == typeof(TableAttribute)))
-                                                      .Select(x => x.GetValue(context) as IEnumerable).ToArray();
+                                                      .Select(x => x.GetValue(context) as IEnumerable);
                 foreach (var table in tables)
                 {
                     var method = table.GetType().GetMethod("Remove");
                     foreach (var component in table)
                     {
-                        method.Invoke(table, new[] { component });
+                        method?.Invoke(table, new[] { component });
                     }
                 }
+                context.SaveChanges();
+            }
+        }
+
+        private void deleteRecordButton_Click(object sender, EventArgs e)
+        {
+            using (var context = new ComponentsContext())
+            {
+                var propertyInfo = typeof(ComponentsContext).GetProperties().FirstOrDefault(property => property.GetCustomAttributes(true).Any(attribute => attribute.GetType() == typeof(TableAttribute) && (attribute as TableAttribute).Name == componentsComboBox.Text));
+                var table = propertyInfo.GetValue(context) as IEnumerable<IComponent>;
+                var id = int.Parse(textBox1.Text);
+                var component = table.FirstOrDefault(component => component.Id == id);
+                var method = table.GetType().GetMethod("Remove");
+                method?.Invoke(table, new[] { component });
+                context.SaveChanges();
+            }
+        }
+
+        private void deleteLastComponent_Click(object sender, EventArgs e)
+        {
+            using (var context = new ComponentsContext())
+            {
+                var propertyInfo = typeof(ComponentsContext).GetProperties().FirstOrDefault(property => property.GetCustomAttributes(true).Any(attribute => attribute.GetType() == typeof(TableAttribute) && (attribute as TableAttribute).Name == componentsComboBox.Text));
+                var table = propertyInfo.GetValue(context) as IEnumerable<IComponent>;
+                var id = table.Max(x => x.Id);
+                var component = table.FirstOrDefault(component => component.Id == id);
+                var method = table.GetType().GetMethod("Remove");
+                method?.Invoke(table, new[] { component });
                 context.SaveChanges();
             }
         }

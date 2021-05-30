@@ -19,8 +19,6 @@ namespace TestRTF_bot.Models.Accessories
         public int CoolerHeight { get; set; } // до стенки корпуса
         public int CoolerWidth { get; set; } // до видеокарты и радиатора питальника процессора
         public int CoolerLength { get; set; } // до слотов ОЗУ 
-        public int LuqidCoolingCountSlots { get; set; }
-        public int LuqidCoolingSize { get; set; }
 
         public bool IsCompatible(IComponent otherComponent)
         {

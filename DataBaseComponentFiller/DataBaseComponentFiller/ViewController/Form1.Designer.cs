@@ -33,6 +33,9 @@ namespace DataBaseComponentFiller
             this.selectButton = new System.Windows.Forms.Button();
             this.outputButton = new System.Windows.Forms.Button();
             this.deleteDataBase = new System.Windows.Forms.Button();
+            this.deleteComponentButton = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.deleteLastComponent = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // componentsComboBox
@@ -67,7 +70,7 @@ namespace DataBaseComponentFiller
             // 
             // outputButton
             // 
-            this.outputButton.Location = new System.Drawing.Point(12, 70);
+            this.outputButton.Location = new System.Drawing.Point(12, 124);
             this.outputButton.Name = "outputButton";
             this.outputButton.Size = new System.Drawing.Size(236, 23);
             this.outputButton.TabIndex = 2;
@@ -77,19 +80,49 @@ namespace DataBaseComponentFiller
             // 
             // deleteDataBase
             // 
-            this.deleteDataBase.Location = new System.Drawing.Point(12, 99);
+            this.deleteDataBase.Location = new System.Drawing.Point(12, 153);
             this.deleteDataBase.Name = "deleteDataBase";
-            this.deleteDataBase.Size = new System.Drawing.Size(231, 23);
+            this.deleteDataBase.Size = new System.Drawing.Size(236, 23);
             this.deleteDataBase.TabIndex = 3;
             this.deleteDataBase.Text = "Очистить БД";
             this.deleteDataBase.UseVisualStyleBackColor = true;
             this.deleteDataBase.Click += new System.EventHandler(this.deleteDataBase_Click);
             // 
+            // deleteComponentButton
+            // 
+            this.deleteComponentButton.Location = new System.Drawing.Point(12, 70);
+            this.deleteComponentButton.Name = "deleteComponentButton";
+            this.deleteComponentButton.Size = new System.Drawing.Size(104, 23);
+            this.deleteComponentButton.TabIndex = 4;
+            this.deleteComponentButton.Text = "Удалить по Id";
+            this.deleteComponentButton.UseVisualStyleBackColor = true;
+            this.deleteComponentButton.Click += new System.EventHandler(this.deleteRecordButton_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(122, 70);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(126, 23);
+            this.textBox1.TabIndex = 5;
+            // 
+            // deleteLastComponent
+            // 
+            this.deleteLastComponent.Location = new System.Drawing.Point(12, 95);
+            this.deleteLastComponent.Name = "deleteLastComponent";
+            this.deleteLastComponent.Size = new System.Drawing.Size(236, 23);
+            this.deleteLastComponent.TabIndex = 6;
+            this.deleteLastComponent.Text = "Удалить последнюю запись";
+            this.deleteLastComponent.UseVisualStyleBackColor = true;
+            this.deleteLastComponent.Click += new System.EventHandler(this.deleteLastComponent_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(255, 130);
+            this.ClientSize = new System.Drawing.Size(255, 185);
+            this.Controls.Add(this.deleteLastComponent);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.deleteComponentButton);
             this.Controls.Add(this.deleteDataBase);
             this.Controls.Add(this.outputButton);
             this.Controls.Add(this.selectButton);
@@ -98,6 +131,7 @@ namespace DataBaseComponentFiller
             this.Name = "Form1";
             this.Text = "Заполнение БД";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -107,6 +141,9 @@ namespace DataBaseComponentFiller
         private System.Windows.Forms.Button selectButton;
         private System.Windows.Forms.Button outputButton;
         private System.Windows.Forms.Button deleteDataBase;
+        private System.Windows.Forms.Button deleteComponentButton;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button deleteLastComponent;
     }
 }
 

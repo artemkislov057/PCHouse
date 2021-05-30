@@ -18,6 +18,7 @@ namespace TestRTF_bot.Models.Accessories
         public int Width { get; set; } // до боковой стенки корпуса
         public int Height { get; set; }
         public int EnergyConsumption { get; set; }
+        public string PinPowerVideoCard { get; set; }
 
         public bool IsCompatible(IComponent otherComponent)
         {

@@ -57,6 +57,14 @@ namespace DataBaseComponentFiller.ViewController
             this.deleteButton = new System.Windows.Forms.Button();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -239,7 +247,7 @@ namespace DataBaseComponentFiller.ViewController
             // 
             // addButton
             // 
-            this.addButton.Location = new System.Drawing.Point(12, 434);
+            this.addButton.Location = new System.Drawing.Point(12, 535);
             this.addButton.Name = "addButton";
             this.addButton.Size = new System.Drawing.Size(189, 95);
             this.addButton.TabIndex = 22;
@@ -249,7 +257,7 @@ namespace DataBaseComponentFiller.ViewController
             // 
             // undoButton
             // 
-            this.undoButton.Location = new System.Drawing.Point(207, 434);
+            this.undoButton.Location = new System.Drawing.Point(207, 535);
             this.undoButton.Name = "undoButton";
             this.undoButton.Size = new System.Drawing.Size(192, 95);
             this.undoButton.TabIndex = 23;
@@ -259,7 +267,7 @@ namespace DataBaseComponentFiller.ViewController
             // 
             // updateButton
             // 
-            this.updateButton.Location = new System.Drawing.Point(405, 434);
+            this.updateButton.Location = new System.Drawing.Point(405, 535);
             this.updateButton.Name = "updateButton";
             this.updateButton.Size = new System.Drawing.Size(182, 95);
             this.updateButton.TabIndex = 24;
@@ -269,7 +277,7 @@ namespace DataBaseComponentFiller.ViewController
             // 
             // deleteButton
             // 
-            this.deleteButton.Location = new System.Drawing.Point(593, 434);
+            this.deleteButton.Location = new System.Drawing.Point(593, 535);
             this.deleteButton.Name = "deleteButton";
             this.deleteButton.Size = new System.Drawing.Size(195, 95);
             this.deleteButton.TabIndex = 25;
@@ -293,11 +301,83 @@ namespace DataBaseComponentFiller.ViewController
             this.label12.TabIndex = 27;
             this.label12.Text = "Форм-фактор";
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(12, 422);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(72, 15);
+            this.label13.TabIndex = 28;
+            this.label13.Text = "PinPowerCP";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(12, 451);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(117, 15);
+            this.label14.TabIndex = 29;
+            this.label14.Text = "Высота охлаждения";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(12, 480);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(122, 15);
+            this.label15.TabIndex = 30;
+            this.label15.Text = "Ширина охлаждения";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(12, 509);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(112, 15);
+            this.label16.TabIndex = 31;
+            this.label16.Text = "Длина охлаждения";
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(221, 419);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(567, 23);
+            this.textBox11.TabIndex = 32;
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(221, 448);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(567, 23);
+            this.textBox12.TabIndex = 33;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(221, 477);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(567, 23);
+            this.textBox13.TabIndex = 34;
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(221, 506);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(567, 23);
+            this.textBox14.TabIndex = 35;
+            // 
             // MotherboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 539);
+            this.ClientSize = new System.Drawing.Size(800, 637);
+            this.Controls.Add(this.textBox14);
+            this.Controls.Add(this.textBox13);
+            this.Controls.Add(this.textBox12);
+            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.textBox10);
             this.Controls.Add(this.deleteButton);
@@ -363,5 +443,13 @@ namespace DataBaseComponentFiller.ViewController
         private System.Windows.Forms.Button deleteButton;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox textBox14;
     }
 }
