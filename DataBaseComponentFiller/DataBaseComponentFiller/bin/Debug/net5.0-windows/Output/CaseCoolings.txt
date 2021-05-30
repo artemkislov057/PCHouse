@@ -1,0 +1,8 @@
+Id: 2
+Name: qew
+Cost: 123
+Rating: 123
+FanSize: 123
+TypeOfPowerSupply: 13
+EnergyConsumption: 213
+

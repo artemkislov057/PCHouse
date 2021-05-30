@@ -1,0 +1,28 @@
+Id: 4
+Name: asd
+Cost: 123
+Rating: 123
+ARRAY_FormFactor: sd
+sad
+ARRAY_FanSlotsAndSize: asdsadas
+PossibilityOfInstallationWaterCooling: True
+ARRAYWaterCoolingSlotsAndSize: 1
+23
+3
+MaximumHeightOfTowerCooler: 123
+MaximumWidthOfVideoCard: 123
+MaximumHeightOfVideoCard: 132
+
+Id: 5
+Name: asd2
+Cost: 124
+Rating: 100
+ARRAY_FormFactor: sd
+sad
+ARRAY_FanSlotsAndSize: asdsadas
+PossibilityOfInstallationWaterCooling: False
+ARRAYWaterCoolingSlotsAndSize: 
+MaximumHeightOfTowerCooler: 123
+MaximumWidthOfVideoCard: 123
+MaximumHeightOfVideoCard: 132
+

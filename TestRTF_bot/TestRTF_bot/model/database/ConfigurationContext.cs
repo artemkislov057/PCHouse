@@ -9,14 +9,23 @@ namespace TestRTF_bot.model.database
 {
     class ConfigurationContext : DbContext
     {
-        public ConfigurationContext()
+        public ConfigurationContext() : this("Configurations.mdf")
         {
+
+        }
+
+        public ConfigurationContext(string path)
+        {
+            Path = path;
+            connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\" + path + ";Integrated Security=True";
             Database.EnsureCreated();
         }
 
+        public readonly string Path;
+        private string connectionString;
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            var connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Configurations.mdf;Integrated Security=True";
             optionsBuilder.UseSqlServer(connectionString);
             //optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=helloappdb;Trusted_Connection=True;");
         }

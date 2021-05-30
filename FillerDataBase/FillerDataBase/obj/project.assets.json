@@ -5708,11 +5708,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MyPrograms\\C#\\FillerDataBase\\FillerDataBase\\FillerDataBase.csproj",
+      "projectUniqueName": "E:\\PCHouse\\FillerDataBase\\FillerDataBase\\FillerDataBase.csproj",
       "projectName": "FillerDataBase",
-      "projectPath": "E:\\MyPrograms\\C#\\FillerDataBase\\FillerDataBase\\FillerDataBase.csproj",
+      "projectPath": "E:\\PCHouse\\FillerDataBase\\FillerDataBase\\FillerDataBase.csproj",
       "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
-      "outputPath": "E:\\MyPrograms\\C#\\FillerDataBase\\FillerDataBase\\obj\\",
+      "outputPath": "E:\\PCHouse\\FillerDataBase\\FillerDataBase\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,9 @@
+Id: 2
+Name: sad1
+Cost: 123
+Rating: 123
+Power: 123
+PinPowerCP: asdasd
+PinPowerVideoCard: asds
+SataCount: 2
+

@@ -1,0 +1,14 @@
+Id: 2
+Name: mb
+Cost: 100
+Rating: 100
+Socket: socket
+RAM: ddr3
+RAMFrequency: 100
+RAMTimings: timing
+ARRAY_ProcessorCoolings: asd
+asd
+ARRAY_CaseCoolings: sd
+SataInterfaceCount: 2
+M2Length: 150
+
