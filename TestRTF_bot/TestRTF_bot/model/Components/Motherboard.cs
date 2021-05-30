@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TestRTF_bot.model;
 
 namespace TestRTF_bot.Models.Accessories
 {
@@ -31,6 +32,16 @@ namespace TestRTF_bot.Models.Accessories
         public bool IsCompatible(IComponent otherComponent)
         {
             throw new NotImplementedException();
+        }
+
+        public string[] GetProcessorCoolings()
+        {
+            return ARRAY_ProcessorCoolings.GetLines();
+        }
+
+        public string[] GetCaseCoolings()
+        {
+            return ARRAY_CaseCoolings.GetLines();
         }
     }
 }

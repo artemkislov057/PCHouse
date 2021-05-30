@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using TestRTF_bot.model;
 
 namespace TestRTF_bot.Models.Accessories
 {
@@ -20,6 +21,16 @@ namespace TestRTF_bot.Models.Accessories
         public bool IsCompatible(IComponent otherComponent)
         {
             throw new System.NotImplementedException();
+        }
+
+        public string[] GetFormFactors()
+        {
+            return ARRAY_FormFactor.GetLines();
+        }
+
+        public string[] GetFanSlotsAndSize()
+        {
+            return ARRAY_FanSlotsAndSize.GetLines();
         }
     }
 }
