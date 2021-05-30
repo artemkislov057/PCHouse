@@ -1,9 +1,0 @@
-Id: 2
-Name: 1050Ti
-Cost: 1200
-Rating: 100
-Length: 120
-Width: 23
-Height: 12
-EnergyConsumption: 123
-

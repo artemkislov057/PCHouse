@@ -23,6 +23,7 @@ namespace DataBaseComponentFiller.Model.Components
         public string ARRAY_CaseCoolings { get; set; }
         public int SataInterfaceCount { get; set; }
         public int M2Length { get; set; }
+        public string FormFactor { get; set; }
 
         public bool IsCompatible(IComponent otherComponent)
         {

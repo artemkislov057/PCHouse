@@ -1,9 +1,0 @@
-Id: 2
-Name: sdf
-Cost: 234
-Rating: 42
-TypeMemory: sdf
-Frequency: 324
-Timings: dsf
-EnergyConsumption: 123
-

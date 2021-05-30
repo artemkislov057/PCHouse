@@ -55,6 +55,8 @@ namespace DataBaseComponentFiller.ViewController
             this.undoButton = new System.Windows.Forms.Button();
             this.updateButton = new System.Windows.Forms.Button();
             this.deleteButton = new System.Windows.Forms.Button();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -237,7 +239,7 @@ namespace DataBaseComponentFiller.ViewController
             // 
             // addButton
             // 
-            this.addButton.Location = new System.Drawing.Point(12, 389);
+            this.addButton.Location = new System.Drawing.Point(12, 434);
             this.addButton.Name = "addButton";
             this.addButton.Size = new System.Drawing.Size(189, 95);
             this.addButton.TabIndex = 22;
@@ -247,7 +249,7 @@ namespace DataBaseComponentFiller.ViewController
             // 
             // undoButton
             // 
-            this.undoButton.Location = new System.Drawing.Point(207, 389);
+            this.undoButton.Location = new System.Drawing.Point(207, 434);
             this.undoButton.Name = "undoButton";
             this.undoButton.Size = new System.Drawing.Size(192, 95);
             this.undoButton.TabIndex = 23;
@@ -257,7 +259,7 @@ namespace DataBaseComponentFiller.ViewController
             // 
             // updateButton
             // 
-            this.updateButton.Location = new System.Drawing.Point(405, 389);
+            this.updateButton.Location = new System.Drawing.Point(405, 434);
             this.updateButton.Name = "updateButton";
             this.updateButton.Size = new System.Drawing.Size(182, 95);
             this.updateButton.TabIndex = 24;
@@ -267,7 +269,7 @@ namespace DataBaseComponentFiller.ViewController
             // 
             // deleteButton
             // 
-            this.deleteButton.Location = new System.Drawing.Point(593, 389);
+            this.deleteButton.Location = new System.Drawing.Point(593, 434);
             this.deleteButton.Name = "deleteButton";
             this.deleteButton.Size = new System.Drawing.Size(195, 95);
             this.deleteButton.TabIndex = 25;
@@ -275,11 +277,29 @@ namespace DataBaseComponentFiller.ViewController
             this.deleteButton.UseVisualStyleBackColor = true;
             this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
             // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(221, 390);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(567, 23);
+            this.textBox10.TabIndex = 26;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(12, 393);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(84, 15);
+            this.label12.TabIndex = 27;
+            this.label12.Text = "Форм-фактор";
+            // 
             // MotherboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 496);
+            this.ClientSize = new System.Drawing.Size(800, 539);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.textBox10);
             this.Controls.Add(this.deleteButton);
             this.Controls.Add(this.updateButton);
             this.Controls.Add(this.undoButton);
@@ -341,5 +361,7 @@ namespace DataBaseComponentFiller.ViewController
         private System.Windows.Forms.Button undoButton;
         private System.Windows.Forms.Button updateButton;
         private System.Windows.Forms.Button deleteButton;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Label label12;
     }
 }

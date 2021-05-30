@@ -36,7 +36,8 @@ namespace DataBaseComponentFiller.ViewController
                 ARRAY_ProcessorCoolings = richTextBox1.Text,
                 ARRAY_CaseCoolings = richTextBox2.Text,
                 SataInterfaceCount = int.Parse(textBox8.Text),
-                M2Length = int.Parse(textBox9.Text)
+                M2Length = int.Parse(textBox9.Text),
+                FormFactor = textBox10.Text
             };
             motherboards.Add(motherboard);
         }

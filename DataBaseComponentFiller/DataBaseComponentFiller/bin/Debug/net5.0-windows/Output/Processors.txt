@@ -1,8 +1,0 @@
-Id: 11
-Name: intel
-Cost: 20
-Rating: 100
-Socket: socket
-RamFrequency: 100
-EnergyConsumption: 100
-

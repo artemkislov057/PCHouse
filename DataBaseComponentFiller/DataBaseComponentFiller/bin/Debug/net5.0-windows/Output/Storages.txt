@@ -1,6 +1,0 @@
-Id: 2
-Name: qwe
-Cost: 123
-Rating: 123
-EnergyConsumption: 123
-
