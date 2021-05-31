@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TestRTF_bot.Controllers;
 
 namespace TestRTF_bot.Models
 {
     public class UserInformation
     {
-        public int MinCost { get; private set; }
-        public int MaxCost { get; private set; }
-        public Target Target { get; private set; }
+        public Budget Budget { get; set; }
+        public Target Target { get; set; }
 
-        public UserInformation(int minCost, int maxCost, Target target)
+        public UserInformation() { }
+        public UserInformation(Budget budget, Target target)
         {
-            this.MinCost = minCost;
-            this.MaxCost = maxCost;
+            this.Budget = budget;
             this.Target = target;
         }
     }
