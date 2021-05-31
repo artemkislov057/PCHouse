@@ -91,7 +91,8 @@ namespace FillerDataBase
             "50-60",
             "60-70",
             "70-80",
-            ">80"});
+            "80-100",
+            ">100"});
             this.comboBox2.Location = new System.Drawing.Point(204, 27);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(167, 23);

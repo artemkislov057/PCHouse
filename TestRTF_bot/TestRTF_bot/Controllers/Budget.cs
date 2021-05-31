@@ -21,8 +21,8 @@ namespace TestRTF_bot.Controllers
         {
             if (MaxValue <= 40)
                 return "<40";
-            if (MinValue >= 80)
-                return ">80";
+            if (MinValue >= 100)
+                return ">100";
             return MinValue.ToString() + "-" + MaxValue.ToString();
         }
     }
