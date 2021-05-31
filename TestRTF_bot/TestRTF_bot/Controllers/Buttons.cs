@@ -27,10 +27,12 @@ namespace TestRTF_bot.Controllers
                 Keyboard = new List<List<KeyboardButton>>()
                 {
                     new List<KeyboardButton>() { new KeyboardButton() { Text = "< 40 тыс. руб." },
-                                                 new KeyboardButton() { Text = "40 - 50 тыс. руб." } },
-                    new List<KeyboardButton>() { new KeyboardButton() { Text = "50 - 60 тыс. руб." },
-                                                 new KeyboardButton() { Text = "60 - 70 тыс. руб." } },
-                    new List<KeyboardButton>() { new KeyboardButton() { Text = "70 - 80 тыс. руб." } }
+                                                 new KeyboardButton() { Text = "40 - 50 тыс. руб." },
+                                                 new KeyboardButton() { Text = "50 - 60 тыс. руб." }},
+                    new List<KeyboardButton>() { new KeyboardButton() { Text = "60 - 70 тыс. руб." },
+                                                 new KeyboardButton() { Text = "70 - 80 тыс. руб." },
+                                                 new KeyboardButton() { Text = "80 - 100 тыс. руб" }},
+                    new List<KeyboardButton>() { new KeyboardButton() { Text = "> 100 тыс. руб." } }
                 }
             };
         }
