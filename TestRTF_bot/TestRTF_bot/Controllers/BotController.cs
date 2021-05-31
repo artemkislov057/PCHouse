@@ -78,7 +78,8 @@ namespace TestRTF_bot.Controllers
             }
             catch
             {
-                return null;
+                
+                return "К сожалению, нужная конфигурация не найдена, попробуйте выбрать другой бюджет";
             }
         }
 

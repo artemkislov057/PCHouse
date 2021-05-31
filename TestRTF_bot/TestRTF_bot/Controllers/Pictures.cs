@@ -10,7 +10,6 @@ namespace TestRTF_bot.Controllers
     {
         private static List<string> stickersURL = new List<string>()
         {
-            "https://cdn.tlgrm.ru/stickers/542/8be/5428be2f-7730-3938-ad68-181e3ee239e8/96/4.webp",
             "https://bipbap.ru/wp-content/uploads/2017/08/2-34.jpg",
             "https://bipbap.ru/wp-content/uploads/2017/08/2-51.jpg",
             "https://bipbap.ru/wp-content/uploads/2017/08/4-35.jpg",
