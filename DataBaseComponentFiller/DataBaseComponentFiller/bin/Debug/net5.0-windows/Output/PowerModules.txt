@@ -1,0 +1,63 @@
+Id: 1
+Name: Chieftec A-80 Series 750W
+Cost: 5000
+Rating: 6
+Power: 750
+PinPowerCP: 1x 4+4 pin
+PinPowerVideoCard: 2x 6+2 pin
+SataCount: 6
+
+Id: 2
+Name: Chieftec Silicon 750W
+Cost: 6000
+Rating: 7
+Power: 750
+PinPowerCP: 1x 4+4 pin
+PinPowerVideoCard: 4x 6+2 pin
+SataCount: 6
+
+Id: 3
+Name: Thermaltake Smart BM2 750W - TT Premium Edition
+Cost: 7899
+Rating: 7
+Power: 750
+PinPowerCP: 1x 4+4 pin
+PinPowerVideoCard: 4x 6+2 pin
+SataCount: 9
+
+Id: 4
+Name: Thermaltake Smart PRO RGB 750W
+Cost: 9750
+Rating: 8
+Power: 750
+PinPowerCP: 1x 4+4 pin
+PinPowerVideoCard: 4x 6+2 pin
+SataCount: 9
+
+Id: 5
+Name: Thermaltake Toughpower i RGB PLUS 850W Digital
+Cost: 13300
+Rating: 8
+Power: 850
+PinPowerCP: 2x 4+4 pin
+PinPowerVideoCard: 6x 6+2 pin
+SataCount: 12
+
+Id: 6
+Name: Thermaltake Toughpower i RGB PLUS 1000W Digital
+Cost: 18300
+Rating: 9
+Power: 1000
+PinPowerCP: 2x 4+4 pin
+PinPowerVideoCard: 6x 6+2 pin
+SataCount: 12
+
+Id: 7
+Name: Chieftec Value 500W
+Cost: 3000
+Rating: 4
+Power: 500
+PinPowerCP: 1x 4+4 pin
+PinPowerVideoCard: 1x 6+2 pin
+SataCount: 3
+

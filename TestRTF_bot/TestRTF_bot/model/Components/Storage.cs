@@ -19,7 +19,7 @@ namespace TestRTF_bot.model.Components
 
         public bool IsCompatible(IComponent otherComponent)
         {
-            throw new NotImplementedException();
+            return true;
         }
     }
 }

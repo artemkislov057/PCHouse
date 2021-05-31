@@ -1,0 +1,60 @@
+Id: 1
+Name: Goodram S400u
+Cost: 1899
+Rating: 4
+Length: 2280
+
+Id: 2
+Name: A-Data XPG SX6000 Lite
+Cost: 2199
+Rating: 5
+Length: 2280
+
+Id: 3
+Name: Kingston UV500
+Cost: 2699
+Rating: 4
+Length: 2280
+
+Id: 4
+Name: SiliconPower P34A80
+Cost: 3899
+Rating: 6
+Length: 2280
+
+Id: 5
+Name: A-Data XPG GAMMIX S11 Pro
+Cost: 4199
+Rating: 7
+Length: 2280
+
+Id: 6
+Name: A-Data Falcon
+Cost: 6500
+Rating: 7
+Length: 2280
+
+Id: 7
+Name: Samsung 970 EVO Plus
+Cost: 5100
+Rating: 8
+Length: 2280
+
+Id: 8
+Name: Samsung 970 EVO Plus (500 Gb)
+Cost: 8399
+Rating: 10
+Length: 2280
+
+Id: 9
+Name: Samsung 980
+Cost: 8300
+Rating: 9
+Length: 2280
+
+Id: 10
+Name: Kingston NV1
+Cost: 5500
+Rating: 4
+Length: 2280
+

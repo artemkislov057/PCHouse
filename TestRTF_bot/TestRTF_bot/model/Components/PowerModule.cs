@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TestRTF_bot.model.Components;
 
 namespace TestRTF_bot.Models.Accessories
 {
@@ -21,7 +22,11 @@ namespace TestRTF_bot.Models.Accessories
 
         public bool IsCompatible(IComponent otherComponent)
         {
-            throw new NotImplementedException();
+            if (otherComponent is VideoCard videoCard)
+                return videoCard.PinPowerVideoCard.ToLower() == PinPowerVideoCard.ToLower();
+            if (otherComponent is Motherboard motherboard)
+                return motherboard.IsCompatible(this);
+            return true;
         }
     }
 }

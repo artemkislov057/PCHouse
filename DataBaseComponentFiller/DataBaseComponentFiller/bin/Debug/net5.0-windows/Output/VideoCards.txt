@@ -1,0 +1,60 @@
+Id: 2
+Name: MSI GeForce GTX 1650 SUPER VENTUS XS OC
+Cost: 37999
+Rating: 6
+Length: 180
+Width: -1
+Height: 42
+EnergyConsumption: 100
+PinPowerVideoCard: 6-pin
+
+Id: 3
+Name: MSI AMD Radeon RX 5500 XT GAMING X
+Cost: 78000
+Rating: 6
+Length: 247
+Width: -1
+Height: 47
+EnergyConsumption: 140
+PinPowerVideoCard: 8-pin
+
+Id: 4
+Name: MSI AMD Radeon RX 5500 XT GAMING X
+Cost: 78000
+Rating: 6
+Length: 247
+Width: -1
+Height: 47
+EnergyConsumption: 140
+PinPowerVideoCard: 6+2-pin
+
+Id: 5
+Name: MSI GeForce GTX 1660 SUPER GAMING X
+Cost: 53000
+Rating: 6
+Length: 250
+Width: -1
+Height: 44
+EnergyConsumption: 150
+PinPowerVideoCard: 6+2-pin
+
+Id: 6
+Name: MSI AMD TEST CARD LowCost
+Cost: 13000
+Rating: 4
+Length: 231
+Width: -1
+Height: 44
+EnergyConsumption: 100
+PinPowerVideoCard: 6 - pin
+
+Id: 7
+Name: GIGABYTE NViDIA TEST CARD MEDIUM COST
+Cost: 22000
+Rating: 6
+Length: 234
+Width: -1
+Height: 47
+EnergyConsumption: 150
+PinPowerVideoCard: 6+2-pin
+

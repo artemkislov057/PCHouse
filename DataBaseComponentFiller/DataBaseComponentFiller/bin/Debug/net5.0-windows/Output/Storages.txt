@@ -1,0 +1,42 @@
+Id: 1
+Name: WD Blue (500 Gb)
+Cost: 2850
+Rating: 5
+EnergyConsumption: 15
+
+Id: 2
+Name: Seagate 7200 BarraCuda (1 Tb)
+Cost: 2900
+Rating: 7
+EnergyConsumption: 15
+
+Id: 3
+Name: Seagate BarraCuda (2 Tb)
+Cost: 4700
+Rating: 7
+EnergyConsumption: 15
+
+Id: 5
+Name: Seagate Exos 7E8 (4 Tb)
+Cost: 21000
+Rating: 7
+EnergyConsumption: 15
+
+Id: 6
+Name: Samsung 870 EVO (500 Gb)
+Cost: 6000
+Rating: 7
+EnergyConsumption: 15
+
+Id: 7
+Name: Goodram Irdm Pro gen.2 (512 Gb)
+Cost: 6500
+Rating: 8
+EnergyConsumption: 15
+
+Id: 8
+Name: A-Data SU630
+Cost: 8900
+Rating: 9
+EnergyConsumption: 15
+

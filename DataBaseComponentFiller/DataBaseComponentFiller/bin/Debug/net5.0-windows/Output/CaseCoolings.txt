@@ -1,0 +1,80 @@
+Id: 1
+Name: Aerocool P7-F12
+Cost: 800
+Rating: 7
+FanSize: 120
+TypeOfPowerSupply: 3-pin
+EnergyConsumption: 12
+
+Id: 2
+Name: DEXP Fridge GS-120 RGB
+Cost: 650
+Rating: 5
+FanSize: 120
+TypeOfPowerSupply: 3-pin
+EnergyConsumption: 12
+
+Id: 3
+Name: Cooler Master MasterFan Lite MF121L RGB
+Cost: 850
+Rating: 7
+FanSize: 120
+TypeOfPowerSupply: 3-pin
+EnergyConsumption: 12
+
+Id: 4
+Name: Corsair Air Series AF120 LED
+Cost: 1100
+Rating: 8
+FanSize: 120
+TypeOfPowerSupply: 3-pin
+EnergyConsumption: 12
+
+Id: 5
+Name: ID-Cooling XF-12025-ARGB
+Cost: 650
+Rating: 7
+FanSize: 120
+TypeOfPowerSupply: 4-pin
+EnergyConsumption: 12
+
+Id: 6
+Name: ID-COOLING [DF-12025-ARGB-XT White Box]
+Cost: 750
+Rating: 8
+FanSize: 120
+TypeOfPowerSupply: 4-pin
+EnergyConsumption: 12
+
+Id: 7
+Name: Cooler Master SickleFlow 120 ARGB
+Cost: 899
+Rating: 8
+FanSize: 120
+TypeOfPowerSupply: 4-pin
+EnergyConsumption: 12
+
+Id: 8
+Name: ID-Cooling ZF-14025-ARGB
+Cost: 899
+Rating: 8
+FanSize: 140
+TypeOfPowerSupply: 4-pin
+EnergyConsumption: 12
+
+Id: 9
+Name: Cooler Master MasterFan MF140R ARGB
+Cost: 1450
+Rating: 8
+FanSize: 140
+TypeOfPowerSupply: 4-pin
+EnergyConsumption: 12
+
+Id: 10
+Name: Noctua NF-P14S
+Cost: 1450
+Rating: 7
+FanSize: 140
+TypeOfPowerSupply: 4-pin
+EnergyConsumption: 12
+

@@ -1,0 +1,144 @@
+Id: 2
+Name: MSI A320M-A PRO
+Cost: 3600
+Rating: 3
+Socket: AM4
+RAM: DDR4
+RAMFrequency: 3200
+RAMTimings: Cl16,CL17,CL18,CL19
+ARRAY_ProcessorCoolings: 4-pin
+ARRAY_CaseCoolings: 4-pin
+SataInterfaceCount: 4
+M2Length: -1
+FormFactor: Micro-ATX
+PinPowerCP: 4-pin
+CoolerHeight: -1
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 3
+Name: MSI B450M PRO-M2 MAX
+Cost: 5200
+Rating: 5
+Socket: AM4
+RAM: DDR4
+RAMFrequency: 4133
+RAMTimings: Cl16,CL17,CL18,CL19
+ARRAY_ProcessorCoolings: 4-pin
+ARRAY_CaseCoolings: 4-pin
+SataInterfaceCount: 4
+M2Length: 2280
+FormFactor: Micro-ATX
+PinPowerCP: 8-pin
+CoolerHeight: -1
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 4
+Name: GIGABYTE B450 AORUS PRO
+Cost: 8700
+Rating: 7
+Socket: AM4
+RAM: DDR4
+RAMFrequency: 3200
+RAMTimings: Cl16,CL17,CL18,CL19
+ARRAY_ProcessorCoolings: 4-pin x 2
+ARRAY_CaseCoolings: 4-pin x 3
+SataInterfaceCount: 6
+M2Length: 22110
+FormFactor: Standard-ATX
+PinPowerCP: 8-pin
+CoolerHeight: -1
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 5
+Name: ASRock B550 Steel Legend
+Cost: 15000
+Rating: 8
+Socket: AM4
+RAM: DDR4
+RAMFrequency: 4733
+RAMTimings: Cl16,CL17,CL18,CL19
+ARRAY_ProcessorCoolings: 4-pin x 2
+ARRAY_CaseCoolings: 4-pin x 5
+SataInterfaceCount: 6
+M2Length: 22110
+FormFactor: Standard-ATX
+PinPowerCP: 8-pin + 4-pin
+CoolerHeight: -1
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 6
+Name: MSI H410M-A PRO
+Cost: 5350
+Rating: 2
+Socket: LGA 1200
+RAM: DDR4
+RAMFrequency: 2933
+RAMTimings: Cl14,CL15,Cl16,CL17,CL18,CL19
+ARRAY_ProcessorCoolings: 4-pin
+ARRAY_CaseCoolings: 4-pin
+SataInterfaceCount: 4
+M2Length: 2280
+FormFactor: Micro-ATX
+PinPowerCP: 8-pin
+CoolerHeight: -1
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 7
+Name: ASRock B460M Pro4
+Cost: 7700
+Rating: 6
+Socket: LGA 1200
+RAM: DDR4
+RAMFrequency: 2933
+RAMTimings: CL14, CL15, CL16,CL17,Cl18,CL19
+ARRAY_ProcessorCoolings: 4-pin x 2
+ARRAY_CaseCoolings: 4-pin x 3
+SataInterfaceCount: 6
+M2Length: 2280
+FormFactor: Micro-ATX
+PinPowerCP: 8-pin
+CoolerHeight: -1
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 8
+Name: ASRock B560 Steel Legend
+Cost: 11800
+Rating: 8
+Socket: LGA 1200
+RAM: DDR4
+RAMFrequency: 4800
+RAMTimings: CL14, CL15, CL16,CL17,Cl18,CL19
+ARRAY_ProcessorCoolings: 4-pin x 2
+ARRAY_CaseCoolings: 4-pin x 5
+SataInterfaceCount: 6
+M2Length: 22110
+FormFactor: Standard-ATX
+PinPowerCP: 8-pin
+CoolerHeight: -1
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 9
+Name: ASRock Z490 Steel Legend
+Cost: 16000
+Rating: 8
+Socket: LGA 1200
+RAM: DDR4
+RAMFrequency: 4266
+RAMTimings: CL14, CL15, CL16,CL17,Cl18,CL19
+ARRAY_ProcessorCoolings: 4-pin x 2
+ARRAY_CaseCoolings: 4-pin x 5
+SataInterfaceCount: 6
+M2Length: 22110
+FormFactor: Standard-ATX
+PinPowerCP: 8-pin + 4-pin
+CoolerHeight: -1
+CoolerWidth: -1
+CoolerLength: -1
+

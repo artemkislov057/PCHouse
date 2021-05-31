@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TestRTF_bot.Models;
+using TestRTF_bot.Models.Accessories;
 
 namespace TestRTF_bot.model.Components
 {
@@ -19,7 +20,9 @@ namespace TestRTF_bot.model.Components
 
         public bool IsCompatible(IComponent otherComponent)
         {
-            throw new NotImplementedException();
+            if (otherComponent is Motherboard motherboard)
+                return motherboard.IsCompatible(this);
+            return true;
         }
     }
 }

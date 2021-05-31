@@ -1,15 +1,3 @@
-Процессор: intel core i5
-Материнская плата: 
-Видеокарта: 1050Ti
-RAM: 
-HDD: 
-SSD: 
-Охлаждение: 
-Блок питания: 
-Корпус: 
-Цель:  Gaming
-Бюджет: <40
-
 Процессор: Intel Core i5-9400F 2.9(4.1)GHz 9MB s1151
 Материнская плата: Asus PRIME H310M-R R2.0
 Видеокарта: MSI GeForce GTX 1660 Gaming X 6144MB
@@ -21,4 +9,268 @@ SSD: Kingston SSDNow A400 TLC 240GB 2.5''
 Корпус: Deepcool MATREXX 55 V3 ADD-RGB 3F без БП Black
 Цель:  Gaming
 Бюджет: 50-60
+
+Процессор: Intel Core i5-9400F 2.9(4.1)GHz 9MB s1151 Box
+Материнская плата: Asus PRIME H310M-R R2.0
+Видеокарта: MSI GeForce GTX 1650 GAMING X 4096MB
+RAM: HyperX DDR4 16GB (2x8GB) 3200Mhz Fury Black 
+HDD: Seagate Barracuda 2TB 256MB 7200RPM 3.5"
+SSD: Kingston SSDNow A400 TLC 240GB 2.5''
+Охлаждение: 
+Блок питания: CHIEFTEC Proton 600W
+Корпус: Zalman Z9 Neo без БП White
+Цель:  VideoEditing
+Бюджет: 50-60
+
+Процессор: AMD Ryzen 5 2600 3.4(3.9)GHz 16MB sAM4
+Материнская плата: Gigabyte B450 AORUS ELITE
+Видеокарта: MSI GeForce GTX 1660 VENTUS XS OC 6144MB
+RAM: HyperX DDR4 16GB (2x8GB) 3200Mhz Fury Black
+HDD: Western Digital Blue 2TB 64MB 3.5"
+SSD: Kingston SSDNow A400 TLC 240GB 2.5''
+Охлаждение: Cooler Master Hyper H410R RGB
+Блок питания: CHIEFTEC Proton 600W
+Корпус: Aerocool PGS CYLON без БП Black
+Цель:  Programming
+Бюджет: 50-60
+
+Процессор: Intel Core i5-9400F 2.9(4.1)GHz 9MB s1151 Box
+Материнская плата: Asus PRIME H310M-R R2.0
+Видеокарта: MSI GeForce GTX 1650 GAMING X 4096MB
+RAM: HyperX DDR4 16GB (2x8GB) 3200Mhz Fury Black
+HDD: Seagate Barracuda 2TB 256MB 7200RPM 3.5"
+SSD: Kingston SSDNow A400 TLC 240GB 2.5''
+Охлаждение: 
+Блок питания: CHIEFTEC Proton 600W
+Корпус: Zalman Z9 Neo без БП White
+Цель:  Office
+Бюджет: 50-60
+
+Процессор: Intel Pentium G4600 OEM
+Материнская плата: ASUS H110M-K
+Видеокарта: nVidia GeForce GT1030 Palit Low Profile 2Gb
+RAM: 8Gb DDR4 2133MHz A-DATA Premier
+HDD: SATA-III Seagate Barracuda
+SSD: Kingston SSDNow A400 TLC 240GB 2.5''
+Охлаждение: Cooler Master (DP6-9EDSA-0L-GP)
+Блок питания: 500W ACCORD ACC-500-12 OEM
+Корпус: 3Cott 3001B Black 500W
+Цель:  Gaming
+Бюджет: <40
+
+Процессор: AMD Ryzen 3 1200 3.1(3.4)GHz
+Материнская плата: Gigabyte B450M H
+Видеокарта: Palit GeForce GTX 1650 SUPER StormX OC 4096MB
+RAM: Patriot DDR4 8GB 2133Mhz * 2
+HDD: Seagate BarraCuda 1TB 64MB 7200RPM 3.5''
+SSD: Kingston SSDNow A400 TLC 240GB 2.5''
+Охлаждение: Deepcool ICE BLADE 100
+Блок питания: Aerocool VX PLUS 600W
+Корпус: Aerocool PGS CYLON без БП Black
+Цель:  VideoEditing
+Бюджет: <40
+
+Процессор: AMD Ryzen 5 2600 3.4(3.9)GHz
+Материнская плата: Gigabyte B450M S2H
+Видеокарта: Asus GeForce GTX 1650 Dual OC 4096MB
+RAM: Apacer DDR4 8GB 2666Mhz
+HDD: Seagate BarraCuda 1TB 64MB 7200RPM 3.5''
+SSD: Kingston SSDNow A400 TLC 240GB 2.5''
+Охлаждение: Deepcool GAMMA ARCHER
+Блок питания: Aerocool VX 700W
+Корпус: Aerocool PGS CYLON без БП Black
+Цель:  Programming
+Бюджет: <40
+
+Процессор: Intel Celeron G4930 3.2GHz
+Материнская плата: Asus PRIME H310M-R R2.0 (s1151-V2, Intel H310)
+Видеокарта: Asus GeForce GTX 1050 Phoenix 2048MB
+RAM: HyperX DDR4 8GB (2x4GB) 2666Mhz Fury Black
+HDD: Western Digital Blue 1TB 64MB 3.5"
+SSD: Kingston SSDNow A400 TLC 240GB 2.5''
+Охлаждение: Deepcool GAMMAXX 300
+Блок питания: CHIEFTEC Proton 600W
+Корпус: Aerocool PGS CYLON без БП Black
+Цель:  Office
+Бюджет: <40
+
+Процессор: Intel Core i5-9400F 2.9(4.1)GHz
+Материнская плата: Asus PRIME H310M-R R2.0
+Видеокарта: Gigabyte Radeon RX 570 Gaming 4096MB
+RAM: HyperX DDR4 16GB (2x8GB) 3200Mhz Fury Black
+HDD: Toshiba P300 1TB 64MB 7200RPM 3.5"
+SSD: Kingston SSDNow A400 TLC 240GB 2.5''
+Охлаждение: Deepcool GAMMAXX 300
+Блок питания: Zalman Wattbit XE 600W (ZM600-XE)
+Корпус: Aerocool PGS CYLON без БП Black
+Цель:  Gaming
+Бюджет: 40-50
+
+Процессор: AMD Ryzen 5 2600 3.4(3.9)GHz 16MB sAM4 Tray
+Материнская плата: Gigabyte B450M DS3H
+Видеокарта: Palit GeForce GTX 1660 Dual OC 6144MB
+RAM: HyperX DDR4 16GB (2x8GB) 3200Mhz Fury Black
+HDD: Seagate BarraCuda 1TB 64MB 7200RPM 3.5''
+SSD: Silicon Power P34A60 3D NAND 256GB M.2
+Охлаждение: Deepcool GAMMA ARCHER
+Блок питания: GAMEMAX VP-500 500W (VP-500)
+Корпус: Zalman S3 без БП Black
+Цель:  VideoEditing
+Бюджет: 40-50
+
+Процессор: AMD Ryzen 5 2600 3.4(3.9)GHz 16MB sAM4 Tray
+Материнская плата: Gigabyte B450M DS3H (sAM4, AMD B450)
+Видеокарта: Palit GeForce GTX 1660 Dual OC 6144MB
+RAM: HyperX DDR4 16GB (2x8GB) 3200Mhz Fury Black
+HDD: Seagate BarraCuda 1TB 64MB 7200RPM 3.5'' (ST1000DM010)
+SSD: Silicon Power P34A60 3D NAND 256GB M.2 (2280 PCI-E) NVMe x4
+Охлаждение: Deepcool GAMMA ARCHER
+Блок питания: GAMEMAX VP-500 500W (VP-500)
+Корпус: Zalman S3 без БП Black
+Цель:  Programming
+Бюджет: 40-50
+
+Процессор: Intel Core i5-9500F 3.0(4.4)GHz 9MB s1151 Box
+Материнская плата: Asus PRIME H310M-R R2.0
+Видеокарта: Asus GeForce GTX 1050 Phoenix 2048MB
+RAM: HyperX DDR4 16GB (2x8GB) 3200Mhz Fury Black
+HDD: Toshiba P300 1TB 64MB 7200RPM 3.5"
+SSD: Kingston SSDNow A400 TLC 240GB 2.5''
+Охлаждение: 
+Блок питания: Aerocool KCAS PLUS 700W (KCAS-700 PLUS)
+Корпус: Aerocool PGS CYLON без БП Black
+Цель:  Office
+Бюджет: 40-50
+
+Процессор: Intel Core i5-9600KF 3.7(4.6)MHz 9MB s1151-v2
+Материнская плата: MSI Z390 MAG TOMAHAWK
+Видеокарта: MSI GeForce GTX 1660 Super Gaming X 6144MB
+RAM: HyperX DDR4 16GB (2x8GB) 3200GHz Fury Black
+HDD: Seagate Barracuda 2TB 256MB 7200RPM 3.5"
+SSD: Samsung 970 EVO Plus (500 Gb)
+Охлаждение: PCCooler GI-X4 [CLPCC_X4]
+Блок питания: CHIEFTEC Proton 750W (BDF-600S)
+Корпус: Deepcool MATREXX 55 V3 ADD-RGB 3F без БП Black
+Цель:  Gaming
+Бюджет: 60-70
+
+Процессор: Ryzen 5 3600X 3.8(4.4)MHz 32MB sAM4
+Материнская плата: MSI MPG B550 GAMING PLUS
+Видеокарта: MSI GeForce GTX 1660 Super Gaming X 6144MB
+RAM: HyperX DDR4 16GB (2x8GB) 3200GHz Fury Black 
+HDD: Seagate Barracuda 2TB 256MB 7200RPM 3.5"
+SSD: Samsung 970 EVO Plus (500 Gb)
+Охлаждение: ID-Cooling XF-12025-SD-W (4 штуки)
+Блок питания: CHIEFTEC Proton 750W
+Корпус: Cougar MX350 Mesh-X
+Цель:  VideoEditing
+Бюджет: 60-70
+
+Процессор: Ryzen 7 3800x 3.9(4.5)MHz 32MB sAM4
+Материнская плата: MSI MPG B550 GAMING PLUS
+Видеокарта: MSI GeForce GTX 1650 GAMING X 4096MB
+RAM:  A-Data DDR4 32GB (2x16GB) 3000GHz XPG Gammix D10 
+HDD: Seagate Barracuda 2TB 256MB 7200RPM 3.5"
+SSD: Samsung 970 EVO Plus (500 Gb)
+Охлаждение: ID-Cooling SE-224-XT
+Блок питания: CHIEFTEC Proton 750W
+Корпус: Deepcool MATREXX 55 V3 ADD-RGB 3F без БП Black
+Цель:  Programming
+Бюджет: 60-70
+
+Процессор: Intel Core i5-9600KF 3.7(4.6)MHz 9MB s1151-v2 BOX
+Материнская плата: A-Data XPG Gammix D10
+Видеокарта: MSI GeForce GTX 1650 GAMING X 4096MB
+RAM:  A-Data DDR4 16GB (2x8GB) 3000GHz XPG Gammix D10 
+HDD: Seagate Barracuda 2TB 256MB 7200RPM 3.5"
+SSD: Samsung 970 EVO Plus (500 Gb)
+Охлаждение: 
+Блок питания: CHIEFTEC Proton 600W
+Корпус: MX350 Mesh-X
+Цель:  Office
+Бюджет: 60-70
+
+Процессор: Intel Core i5-9600KF 3.7(4.6)MHz 9MB s1151-v2
+Материнская плата: MSI Z390 MAG TOMAHAWK
+Видеокарта: MSI RTX2070 Super 8GB GDDR6
+RAM: HyperX DDR4 16GB (2x8GB) 3200GHz Fury Black
+HDD: Seagate Barracuda 2TB 256MB 7200RPM 3.5"
+SSD: Samsung 970 EVO Plus (500 Gb)
+Охлаждение: PCCooler GI-X4 [CLPCC_X4]
+Блок питания: Chieftec Polaris 750W (PPS-750FC)
+Корпус: Deepcool MATREXX 55 V3 ADD-RGB 3F без БП Black
+Цель:  Gaming
+Бюджет: 70-80
+
+Процессор: Ryzen 5 3600X 3.8(4.4)MHz 32MB sAM4
+Материнская плата: MSI MPG B550 GAMING PLUS
+Видеокарта: MSI RTX2070 8GB GDDR6
+RAM: HyperX DDR4 16GB (2x8GB) 3200GHz Fury Black 
+HDD: Seagate Barracuda 2TB 256MB 7200RPM 3.5"
+SSD: Samsung 970 EVO Plus (500 Gb)
+Охлаждение: ID-Cooling XF-12025-SD-W (4 штуки)
+Блок питания: CHIEFTEC Proton 750W
+Корпус: Cougar MX350 Mesh-X 
+Цель:  VideoEditing
+Бюджет: 70-80
+
+Процессор: Ryzen 7 3800x 3.9(4.5)MHz 32MB sAM4
+Материнская плата: MSI MPG B550 GAMING PLUS
+Видеокарта: MSI GeForce GTX 1660 Super GAMING X 4096MB
+RAM:  A-Data DDR4 32GB (2x16GB) 3000GHz XPG Gammix D10 
+HDD: Seagate Barracuda 2TB 256MB 7200RPM 3.5"
+SSD: Samsung 970 EVO Plus (500 Gb)
+Охлаждение: ID-Cooling SE-224-XT
+Блок питания: CHIEFTEC Proton 750W
+Корпус: Deepcool MATREXX 55 V3 ADD-RGB 3F без БП Black
+Цель:  Programming
+Бюджет: 70-80
+
+Процессор: Intel Core i7-9600K 3.6(4.9)MHz 12MB s1151-v2
+Материнская плата: ASRock Z390 PRO4
+Видеокарта: MSI GeForce GTX 1650 GAMING X 4096MB
+RAM: A-Data DDR4 16GB (2x8GB) 3000GHz XPG Gammix D10 
+HDD: Seagate Barracuda 2TB 256MB 7200RPM 3.5"
+SSD: Samsung 970 EVO Plus (500 Gb)
+Охлаждение: ID-Cooling SE-224-XT
+Блок питания: CHIEFTEC Proton 750W
+Корпус: Cougar MX350 Mesh-X
+Цель:  Office
+Бюджет: 70-80
+
+Процессор: Intel Core i7-9700KF 3.6(4.9)MHz 12MB s1151-v2
+Материнская плата: MSI Z390 MPG GAMING PRO CARBON
+Видеокарта: MSI nVidia GeForce RTX 3070 VENTUS 3X OC 8Gb GDDR6
+RAM: HyperX DDR4 16GB (2x8GB) 3200GHz Fury Black
+HDD: Seagate Barracuda 2TB 256MB 7200RPM 3.5"
+SSD: Samsung 970 EVO Plus (500 Gb)
+Охлаждение: DEEPCOOL GAMMAXX GTE V2 WHITE
+Блок питания: Chieftec Polaris 750W (PPS-750FC)
+Корпус: Deepcool MATREXX 55 V3 ADD-RGB 3F без БП Black
+Цель:  Gaming
+Бюджет: >80
+
+Процессор: Ryzen 7 3800x 3.9(4.5)MHz 32MB sAM4
+Материнская плата: MSI MPG B550 GAMING PLUS
+Видеокарта: MSI nVidia GeForce RTX 3070 VENTUS 3X OC 8Gb GDDR6
+RAM: HyperX DDR4 16GB (2x8GB) 3200GHz Fury Black 
+HDD: Seagate Barracuda 2TB 256MB 7200RPM 3.5"
+SSD: Samsung 970 EVO Plus (500 Gb)
+Охлаждение: ID-Cooling SE-224-XT
+Блок питания: Chieftec Polaris 750W (PPS-750FC)
+Корпус: Deepcool MATREXX 55 V3 ADD-RGB 3F без БП Black
+Цель:  VideoEditing
+Бюджет: >80
+
+Процессор: Ryzen 7 3800x 3.9(4.5)MHz 32MB sAM4
+Материнская плата: MSI MPG B550 GAMING PLUS
+Видеокарта: MSI RTX2070 8GB GDDR6
+RAM:  HyperX DDR4 32GB (2x16GB) 3200GHz Fury Black
+HDD: Seagate Barracuda 2TB 256MB 7200RPM 3.5"
+SSD: Samsung 970 EVO Plus (500 Gb)
+Охлаждение: ID-Cooling SE-224-XT
+Блок питания: CHIEFTEC Proton 750W
+Корпус: Deepcool MATREXX 55 V3 ADD-RGB 3F без БП Black
+Цель:  Programming
+Бюджет: >80
 

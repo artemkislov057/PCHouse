@@ -1,0 +1,48 @@
+Id: 5
+Name: Intel Core i3-10100 BOX
+Cost: 14000
+Rating: 5
+Socket: LGA 1200
+RamFrequency: 3600
+EnergyConsumption: 90
+
+Id: 6
+Name: Intel Core i7-10700K OEM
+Cost: 30000
+Rating: 8
+Socket: LGA 1200
+RamFrequency: 5100
+EnergyConsumption: 230
+
+Id: 7
+Name: Intel Core i5-10400F OEM
+Cost: 14200
+Rating: 6
+Socket: LGA 1200
+RamFrequency: 4300
+EnergyConsumption: 140
+
+Id: 8
+Name: AMD Ryzen 7 2700X BOX
+Cost: 18600
+Rating: 7
+Socket: AM4
+RamFrequency: 4300
+EnergyConsumption: 65
+
+Id: 9
+Name: AMD Ryzen 5 3600 OEM
+Cost: 14000
+Rating: 7
+Socket: AM4
+RamFrequency: 4200
+EnergyConsumption: 65
+
+Id: 10
+Name: AMD Ryzen 5 5600X OEM
+Cost: 24000
+Rating: 8
+Socket: AM4
+RamFrequency: 4600
+EnergyConsumption: 76
+

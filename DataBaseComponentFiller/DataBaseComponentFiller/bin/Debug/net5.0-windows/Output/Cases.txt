@@ -1,0 +1,60 @@
+Id: 3
+Name: AeroCool Streak
+Cost: 2600
+Rating: 5
+ARRAY_FormFactor: Mini-ITX, Micro-ATX, Standard-ATX
+ARRAY_FanSlotsAndSize: 2x120
+PossibilityOfInstallationWaterCooling: True
+MaximumHeightOfTowerCooler: 142
+MaximumWidthOfVideoCard: -1
+MaximumHeightOfVideoCard: -1
+MaximumLengthOfVideoCard: 335
+
+Id: 4
+Name: Aerocool Cylon Mini
+Cost: 2700
+Rating: 5
+ARRAY_FormFactor: Micro-ATX, Mini-ITX
+ARRAY_FanSlotsAndSize: 2x120
+PossibilityOfInstallationWaterCooling: False
+MaximumHeightOfTowerCooler: 147
+MaximumWidthOfVideoCard: -1
+MaximumHeightOfVideoCard: -1
+MaximumLengthOfVideoCard: 300
+
+Id: 5
+Name: AeroCool Mecha
+Cost: 3100
+Rating: 6
+ARRAY_FormFactor: Micro-ATX, Mini-ITX, Standard-ATX
+ARRAY_FanSlotsAndSize: 1x120, 2x120/2x140, 1x120, 1x120
+PossibilityOfInstallationWaterCooling: True
+MaximumHeightOfTowerCooler: 159
+MaximumWidthOfVideoCard: -1
+MaximumHeightOfVideoCard: -1
+MaximumLengthOfVideoCard: 302
+
+Id: 6
+Name: Deepcool MATREXX 55 V3 ADD-RGB
+Cost: 4500
+Rating: 7
+ARRAY_FormFactor: Standard-ATX, Mini-ITX, Micro-ATX, E-ATX
+ARRAY_FanSlotsAndSize: 3x120/3x140, 1x120, 2x120/2x140
+PossibilityOfInstallationWaterCooling: True
+MaximumHeightOfTowerCooler: 160
+MaximumWidthOfVideoCard: -1
+MaximumHeightOfVideoCard: -1
+MaximumLengthOfVideoCard: 370
+
+Id: 7
+Name: DEEPCOOL CL500 4F
+Cost: 8500
+Rating: 8
+ARRAY_FormFactor: Standard-ATX, Mini-ITX, Micro-ATX
+ARRAY_FanSlotsAndSize: 3x120/2x140, 1x120, 2x120
+PossibilityOfInstallationWaterCooling: True
+MaximumHeightOfTowerCooler: 165
+MaximumWidthOfVideoCard: -1
+MaximumHeightOfVideoCard: -1
+MaximumLengthOfVideoCard: 330
+

@@ -26,11 +26,11 @@ namespace DataBaseComponentFiller.ViewController
         {
             var caseCooling = new CaseCooling
             {
-                Name = textBox1.Text,
+                Name = textBox1.Text.ToLower(),
                 Cost = int.Parse(textBox2.Text),
                 Rating = int.Parse(textBox3.Text),
                 FanSize = int.Parse(textBox4.Text),
-                TypeOfPowerSupply = textBox5.Text,
+                TypeOfPowerSupply = textBox5.Text.ToLower(),
                 EnergyConsumption = int.Parse(textBox6.Text)
             };
             caseCoolings.Add(caseCooling);

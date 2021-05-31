@@ -22,7 +22,11 @@ namespace TestRTF_bot.Models.Accessories
 
         public bool IsCompatible(IComponent otherComponent)
         {
-            throw new NotImplementedException();
+            if (otherComponent is Case computerCase)
+                return computerCase.IsCompatible(this);
+            if (otherComponent is PowerModule powerModule)
+                return powerModule.IsCompatible(this);
+            return true;
         }
     }
 }

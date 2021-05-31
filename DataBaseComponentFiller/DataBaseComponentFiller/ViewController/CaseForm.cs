@@ -26,11 +26,11 @@ namespace DataBaseComponentFiller.ViewController
         {
             var body = new Case()
             {
-                Name = textBox1.Text,
+                Name = textBox1.Text.ToLower(),
                 Cost = int.Parse(textBox2.Text),
                 Rating = int.Parse(textBox3.Text),
-                ARRAY_FormFactor = richTextBox1.Text,
-                ARRAY_FanSlotsAndSize = richTextBox2.Text,
+                ARRAY_FormFactor = richTextBox1.Text.ToLower(),
+                ARRAY_FanSlotsAndSize = richTextBox2.Text.ToLower(),
                 PossibilityOfInstallationWaterCooling = checkBox1.Checked,
                 MaximumHeightOfTowerCooler = int.Parse(textBox4.Text),
                 MaximumWidthOfVideoCard = int.Parse(textBox5.Text),

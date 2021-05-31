@@ -1,0 +1,72 @@
+Id: 1
+Name: Kingston HyperX FURY Black (4 Gb)
+Cost: 2250
+Rating: 6
+TypeMemory: DDR4
+Frequency: 3000
+Timings: 15-17-17-32
+EnergyConsumption: 4
+
+Id: 2
+Name: Kingston HyperX FURY Black Series (2x4 Gb)
+Cost: 4750
+Rating: 4
+TypeMemory: DDR4
+Frequency: 1333
+Timings: 9-9-9-36
+EnergyConsumption: 4
+
+Id: 3
+Name: Kingston HyperX FURY Black
+Cost: 5100
+Rating: 5
+TypeMemory: DDR4
+Frequency: 2666
+Timings: CL16
+EnergyConsumption: 4
+
+Id: 4
+Name: Kingston HyperX FURY Black
+Cost: 7400
+Rating: 5
+TypeMemory: DDR4
+Frequency: 2400
+Timings: CL15
+EnergyConsumption: 4
+
+Id: 5
+Name: Kingston HyperX FURY Black
+Cost: 7800
+Rating: 6
+TypeMemory: DDR4
+Frequency: 2666
+Timings: CL16
+EnergyConsumption: 4
+
+Id: 6
+Name: Kingston HyperX Predator
+Cost: 8700
+Rating: 7
+TypeMemory: DDR4
+Frequency: 3200
+Timings: CL16
+EnergyConsumption: 4
+
+Id: 7
+Name: Patriot Viper Elite
+Cost: 7000
+Rating: 5
+TypeMemory: DDR4
+Frequency: 2666
+Timings: CL16
+EnergyConsumption: 4
+
+Id: 8
+Name: A-Data XPG Gammix D10
+Cost: 6500
+Rating: 6
+TypeMemory: DDR4
+Frequency: 3000
+Timings: CL16
+EnergyConsumption: 4
+

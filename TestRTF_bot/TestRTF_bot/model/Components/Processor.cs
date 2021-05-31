@@ -15,12 +15,16 @@ namespace TestRTF_bot.Models.Accessories
         public int Cost { get; set; }
         public int Rating { get; set; }
         public string Socket { get; set; }
-        public double RamFrequency { get; set; }
+        public double RamFrequency { get; set; }   // Здесь частота у нас double, хотя в самой памяти она int
         public int EnergyConsumption { get; set; }
 
         public bool IsCompatible(IComponent otherComponent)
         {
-            throw new NotImplementedException();
+            if (otherComponent is RAM ram)
+                return ram.Frequency - RamFrequency < 1e-7;
+            if(otherComponent is Motherboard motherboard)
+                return motherboard.IsCompatible(this);
+            return true;
         }
     }
 }

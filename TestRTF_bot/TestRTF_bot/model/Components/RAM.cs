@@ -21,7 +21,11 @@ namespace TestRTF_bot.Models.Accessories
 
         public bool IsCompatible(IComponent otherComponent)
         {
-            throw new NotImplementedException();
+            if (otherComponent is Motherboard motherboard)
+                return motherboard.IsCompatible(this);
+            if (otherComponent is Processor cpu)
+                return cpu.IsCompatible(this);
+            return true;
         }
     }
 }

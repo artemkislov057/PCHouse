@@ -1,5 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Linq;
+using System.ComponentModel.DataAnnotations;
 using TestRTF_bot.model;
+using TestRTF_bot.model.Components;
 
 namespace TestRTF_bot.Models.Accessories
 {
@@ -20,7 +22,21 @@ namespace TestRTF_bot.Models.Accessories
 
         public bool IsCompatible(IComponent otherComponent)
         {
-            throw new System.NotImplementedException();
+            if (otherComponent is Motherboard motherboard)
+                return GetFormFactors().Any(x => x.ToLower() == motherboard.FormFactor.ToLower());
+
+            //if (otherComponent is CaseCooling caseCooling)
+            //    return GetFanSlotsAndSize().Any(x => x.ToLower() == caseCooling.FanSize.ToString().ToLower())
+            //        && GetFanSlotsAndSize().Any(x => x.ToLower() == caseCooling.TypeOfPowerSupply.ToLower());
+
+            if (otherComponent is ProcessorCooling cpuCooler)
+                return MaximumHeightOfTowerCooler >= cpuCooler.CoolerHeight;
+
+            if (otherComponent is VideoCard videoCard)
+                return MaximumLengthOfVideoCard >= videoCard.Length;
+                    //MaximumWidthOfVideoCard == videoCard.Height
+                    // && MaximumHeightOfVideoCard == videoCard.Height;
+            return true;
         }
 
         public string[] GetFormFactors()

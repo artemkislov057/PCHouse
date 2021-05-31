@@ -26,7 +26,7 @@ namespace DataBaseComponentFiller.ViewController
         {
             var m2 = new M2
             {
-                Name = textBox1.Text,
+                Name = textBox1.Text.ToLower(),
                 Cost = int.Parse(textBox2.Text),
                 Rating = int.Parse(textBox3.Text),
                 Length = int.Parse(textBox4.Text)
