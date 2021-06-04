@@ -1,60 +1,60 @@
-Id: 2
-Name: MSI GeForce GTX 1650 SUPER VENTUS XS OC
-Cost: 37999
-Rating: 6
-Length: 180
+Id: 8
+Name: MSI GeForce GTX 1650 VENTUS XS OC
+Cost: 28000
+Rating: 50
+Length: 177
 Width: -1
-Height: 42
+Height: -1
+EnergyConsumption: 75
+PinPowerVideoCard: -1
+
+Id: 9
+Name: MSI GeForce GTX 1650 SUPER GAMING X
+Cost: 31200
+Rating: 56
+Length: 248
+Width: -1
+Height: -1
 EnergyConsumption: 100
 PinPowerVideoCard: 6-pin
 
-Id: 3
-Name: MSI AMD Radeon RX 5500 XT GAMING X
-Cost: 78000
-Rating: 6
-Length: 247
+Id: 10
+Name: MSI GeForce GTX 1660 VENTUS XS 6G OCV1
+Cost: 54000
+Rating: 65
+Length: 204
 Width: -1
-Height: 47
-EnergyConsumption: 140
-PinPowerVideoCard: 8-pin
+Height: -1
+EnergyConsumption: 130
+PinPowerVideoCard: 6-pin
 
-Id: 4
-Name: MSI AMD Radeon RX 5500 XT GAMING X
-Cost: 78000
-Rating: 6
-Length: 247
+Id: 13
+Name: MSI GeForce GTX 1660 SUPER Gaming Z PLUS
+Cost: 59700
+Rating: 70
+Length: 248
 Width: -1
-Height: 47
-EnergyConsumption: 140
+Height: -1
+EnergyConsumption: 125
 PinPowerVideoCard: 6+2-pin
 
-Id: 5
-Name: MSI GeForce GTX 1660 SUPER GAMING X
-Cost: 53000
-Rating: 6
-Length: 250
+Id: 14
+Name: MSI nVidia GeForce RTX 3070 VENTUS 3X OC
+Cost: 142000
+Rating: 80
+Length: 305
 Width: -1
-Height: 44
-EnergyConsumption: 150
-PinPowerVideoCard: 6+2-pin
+Height: -1
+EnergyConsumption: 350
+PinPowerVideoCard: 6+2-pin, 6+2-pin
 
-Id: 6
-Name: MSI AMD TEST CARD LowCost
-Cost: 13000
-Rating: 4
-Length: 231
+Id: 15
+Name: MSI GeForce RTX 3080 Gaming X Trio 10GB
+Cost: 250000
+Rating: 86
+Length: 323
 Width: -1
-Height: 44
-EnergyConsumption: 100
-PinPowerVideoCard: 6 - pin
-
-Id: 7
-Name: GIGABYTE NViDIA TEST CARD MEDIUM COST
-Cost: 22000
-Rating: 6
-Length: 234
-Width: -1
-Height: 47
-EnergyConsumption: 150
-PinPowerVideoCard: 6+2-pin
+Height: -1
+EnergyConsumption: 400
+PinPowerVideoCard: 6+2-pin, 6+2-pin, 6+2-pin
 

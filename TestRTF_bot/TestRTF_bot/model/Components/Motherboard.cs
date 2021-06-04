@@ -20,8 +20,8 @@ namespace TestRTF_bot.Models.Accessories
         public string RAM { get; set; }
         public int RAMFrequency { get; set; }
         public string RAMTimings { get; set; }
-        public string ARRAY_ProcessorCoolings { get; set; } // WHO R U? Почему тут массив, если у нас на матери 1 цпу куллер
-        public string ARRAY_CaseCoolings { get; set; } // Аналогично, плохо понимаю зачем нам массив, если можно было просто интовое кол-во куллеров вкорячить
+        public string ARRAY_ProcessorCoolings { get; set; }
+        public string ARRAY_CaseCoolings { get; set; }
         public int SataInterfaceCount { get; set; }
         public int M2Length { get; set; }
         public string FormFactor { get; set; }
@@ -35,8 +35,7 @@ namespace TestRTF_bot.Models.Accessories
             if (otherComponent is Processor cpu)
                 return cpu.Socket.ToLower() == Socket.ToLower();
             if (otherComponent is RAM ram)
-                return ram.TypeMemory.ToLower() == RAM.ToLower()  
-                     && ram.Frequency <= RAMFrequency;
+                return ram.Frequency <= RAMFrequency;
             if (otherComponent is M2 m2)
                 return m2.Length <= M2Length;
             if (otherComponent is Case computerCase)
@@ -44,18 +43,13 @@ namespace TestRTF_bot.Models.Accessories
             if (otherComponent is ProcessorCooling cpuFans)
                 return cpuFans.Socket.Split(", ").Any(x => x.ToLower() == Socket.ToLower());
             if (otherComponent is PowerModule powerModule)
-                return powerModule.PinPowerCP.ToLower() == PinPowerCP.ToLower(); /*powerModule.SataCount == SataInterfaceCount &&*/
+                return powerModule.PinPowerCP.ToLower() == PinPowerCP.ToLower()
+                    && powerModule.SataCount >= SataInterfaceCount;
             return true;
         }
 
-        public string[] GetProcessorCoolings()
-        {
-            return ARRAY_ProcessorCoolings.GetLines();
-        }
+        public string[] GetProcessorCoolings() => ARRAY_ProcessorCoolings.GetArray();
 
-        public string[] GetCaseCoolings()
-        {
-            return ARRAY_CaseCoolings.GetLines();
-        }
+        public string[] GetCaseCoolings() => ARRAY_CaseCoolings.GetArray();
     }
 }

@@ -17,7 +17,7 @@ namespace TestRTF_bot.model.Components
         public int Cost { get; set; }
         public int Rating { get; set; }
         public int FanSize { get; set; }
-        public string TypeOfPowerSupply { get; set; } //тип питания 
+        public string TypeOfPowerSupply { get; set; }
         public int EnergyConsumption { get; set; }
 
         public bool IsCompatible(IComponent otherComponent)

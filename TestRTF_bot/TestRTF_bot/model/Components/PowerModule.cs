@@ -23,7 +23,7 @@ namespace TestRTF_bot.Models.Accessories
         public bool IsCompatible(IComponent otherComponent)
         {
             if (otherComponent is VideoCard videoCard)
-                return videoCard.PinPowerVideoCard.ToLower() == PinPowerVideoCard.ToLower();
+                return PinPowerVideoCard.Split(", ").Any(x => x.ToLower() == videoCard.PinPowerVideoCard.ToLower()) ;
             if (otherComponent is Motherboard motherboard)
                 return motherboard.IsCompatible(this);
             return true;

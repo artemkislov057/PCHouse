@@ -1,48 +1,152 @@
-Id: 5
-Name: Intel Core i3-10100 BOX
-Cost: 14000
-Rating: 5
+Id: 11
+Name: Intel Core i3-10100F BOX
+Cost: 10300
+Rating: 35
 Socket: LGA 1200
-RamFrequency: 3600
+RamFrequency: -1
 EnergyConsumption: 90
 
-Id: 6
-Name: Intel Core i7-10700K OEM
-Cost: 30000
-Rating: 8
+Id: 12
+Name: Intel Core i3-10100F OEM
+Cost: 9800
+Rating: 30
 Socket: LGA 1200
-RamFrequency: 5100
-EnergyConsumption: 230
+RamFrequency: -1
+EnergyConsumption: 90
 
-Id: 7
+Id: 13
+Name: Intel Core i3-10300 BOX
+Cost: 15000
+Rating: 40
+Socket: LGA 1200
+RamFrequency: -1
+EnergyConsumption: 90
+
+Id: 14
+Name: Intel Core i3-10300 OEM
+Cost: 14600
+Rating: 37
+Socket: LGA 1200
+RamFrequency: -1
+EnergyConsumption: 90
+
+Id: 15
+Name: Intel Core i5-10400F BOX
+Cost: 13900
+Rating: 45
+Socket: LGA 1200
+RamFrequency: -1
+EnergyConsumption: 134
+
+Id: 16
 Name: Intel Core i5-10400F OEM
-Cost: 14200
-Rating: 6
+Cost: 13500
+Rating: 40
 Socket: LGA 1200
-RamFrequency: 4300
-EnergyConsumption: 140
+RamFrequency: -1
+EnergyConsumption: 134
 
-Id: 8
-Name: AMD Ryzen 7 2700X BOX
-Cost: 18600
-Rating: 7
+Id: 17
+Name: Intel Core i3-10100 BOX
+Cost: 13400
+Rating: 35
+Socket: LGA 1200
+RamFrequency: -1
+EnergyConsumption: 90
+
+Id: 18
+Name: Intel Core i3-10100 OEM
+Cost: 13300
+Rating: 35
+Socket: LGA 1200
+RamFrequency: -1
+EnergyConsumption: 90
+
+Id: 19
+Name: Intel Core i5-10400 OEM
+Cost: 16600
+Rating: 45
+Socket: LGA
+RamFrequency: -1
+EnergyConsumption: 134
+
+Id: 20
+Name: Intel Core i5-10600 OEM
+Cost: 18300
+Rating: 50
+Socket: LGA 1200
+RamFrequency: -1
+EnergyConsumption: 134
+
+Id: 21
+Name: Intel Core i5-10600KF OEM
+Cost: 16800
+Rating: 53
+Socket: LGA 1200
+RamFrequency: -1
+EnergyConsumption: 134
+
+Id: 22
+Name: Intel Core i7-10700F OEM
+Cost: 23800
+Rating: 70
+Socket: LGA 1200
+RamFrequency: -1
+EnergyConsumption: 224
+
+Id: 23
+Name: AMD Ryzen 3 PRO 3200G OEM
+Cost: 14500
+Rating: 50
 Socket: AM4
-RamFrequency: 4300
+RamFrequency: -1
 EnergyConsumption: 65
 
-Id: 9
-Name: AMD Ryzen 5 3600 OEM
+Id: 24
+Name: AMD Ryzen 3 2200G OEM
 Cost: 14000
-Rating: 7
+Rating: 45
 Socket: AM4
-RamFrequency: 4200
+RamFrequency: -1
 EnergyConsumption: 65
 
-Id: 10
-Name: AMD Ryzen 5 5600X OEM
-Cost: 24000
-Rating: 8
+Id: 25
+Name: AMD Ryzen 3 3100 OEM
+Cost: 10300
+Rating: 40
 Socket: AM4
-RamFrequency: 4600
+RamFrequency: -1
+EnergyConsumption: 65
+
+Id: 27
+Name: AMD Ryzen 3 3200G BOX
+Cost: 15800
+Rating: 50
+Socket: AM4
+RamFrequency: -1
+EnergyConsumption: 65
+
+Id: 28
+Name: AMD Ryzen 5 3600 OEM
+Cost: 15000
+Rating: 70
+Socket: AM4
+RamFrequency: -1
+EnergyConsumption: 65
+
+Id: 30
+Name: AMD Ryzen 5 5600X OEM
+Cost: 23800
+Rating: 76
+Socket: AM4
+RamFrequency: -1
+EnergyConsumption: 76
+
+Id: 31
+Name: AMD Ryzen 5 3600X OEM
+Cost: 16900
+Rating: 70
+Socket: AM4
+RamFrequency: -1
 EnergyConsumption: 76
 

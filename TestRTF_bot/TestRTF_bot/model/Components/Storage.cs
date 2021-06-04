@@ -17,9 +17,6 @@ namespace TestRTF_bot.model.Components
         public int Rating { get; set; }
         public int EnergyConsumption { get; set; }
 
-        public bool IsCompatible(IComponent otherComponent)
-        {
-            return true;
-        }
+        public bool IsCompatible(IComponent otherComponent) => true;
     }
 }

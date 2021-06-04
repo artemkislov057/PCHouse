@@ -25,28 +25,19 @@ namespace TestRTF_bot.Models.Accessories
             if (otherComponent is Motherboard motherboard)
                 return GetFormFactors().Any(x => x.ToLower() == motherboard.FormFactor.ToLower());
 
-            //if (otherComponent is CaseCooling caseCooling)
-            //    return GetFanSlotsAndSize().Any(x => x.ToLower() == caseCooling.FanSize.ToString().ToLower())
-            //        && GetFanSlotsAndSize().Any(x => x.ToLower() == caseCooling.TypeOfPowerSupply.ToLower());
+            if (otherComponent is CaseCooling caseCooling)
+                return GetFanSlotsAndSize().Any(x => x.ToLower() == caseCooling.FanSize.ToString().ToLower());
 
             if (otherComponent is ProcessorCooling cpuCooler)
                 return MaximumHeightOfTowerCooler >= cpuCooler.CoolerHeight;
 
             if (otherComponent is VideoCard videoCard)
                 return MaximumLengthOfVideoCard >= videoCard.Length;
-                    //MaximumWidthOfVideoCard == videoCard.Height
-                    // && MaximumHeightOfVideoCard == videoCard.Height;
             return true;
         }
 
-        public string[] GetFormFactors()
-        {
-            return ARRAY_FormFactor.GetLines();
-        }
+        public string[] GetFormFactors() => ARRAY_FormFactor.GetArray();
 
-        public string[] GetFanSlotsAndSize()
-        {
-            return ARRAY_FanSlotsAndSize.GetLines();
-        }
+        public string[] GetFanSlotsAndSize() => ARRAY_FanSlotsAndSize.GetArray();
     }
 }

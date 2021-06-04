@@ -1,80 +1,72 @@
-Id: 1
-Name: Aerocool P7-F12
-Cost: 800
-Rating: 7
+Id: 11
+Name: ID-Cooling FL-12025
+Cost: 260
+Rating: 40
 FanSize: 120
 TypeOfPowerSupply: 3-pin
-EnergyConsumption: 12
+EnergyConsumption: 5
 
-Id: 2
-Name: DEXP Fridge GS-120 RGB
-Cost: 650
-Rating: 5
-FanSize: 120
-TypeOfPowerSupply: 3-pin
-EnergyConsumption: 12
-
-Id: 3
-Name: Cooler Master MasterFan Lite MF121L RGB
-Cost: 850
-Rating: 7
-FanSize: 120
-TypeOfPowerSupply: 3-pin
-EnergyConsumption: 12
-
-Id: 4
-Name: Corsair Air Series AF120 LED
-Cost: 1100
-Rating: 8
-FanSize: 120
-TypeOfPowerSupply: 3-pin
-EnergyConsumption: 12
-
-Id: 5
-Name: ID-Cooling XF-12025-ARGB
-Cost: 650
-Rating: 7
+Id: 12
+Name: Aerocool Force 12 PWM
+Cost: 450
+Rating: 40
 FanSize: 120
 TypeOfPowerSupply: 4-pin
-EnergyConsumption: 12
+EnergyConsumption: 5
 
-Id: 6
-Name: ID-COOLING [DF-12025-ARGB-XT White Box]
+Id: 13
+Name: Aerocool Frost 12 PWM FRGB
+Cost: 500
+Rating: 60
+FanSize: 120
+TypeOfPowerSupply: 4-pin
+EnergyConsumption: 5
+
+Id: 14
+Name: DEEPCOOL RF120 FS
+Cost: 600
+Rating: 70
+FanSize: 120
+TypeOfPowerSupply: 4-pin
+EnergyConsumption: 5
+
+Id: 15
+Name: ID-Cooling NO-12015-XT ARGB
 Cost: 750
-Rating: 8
+Rating: 70
 FanSize: 120
 TypeOfPowerSupply: 4-pin
-EnergyConsumption: 12
+EnergyConsumption: 5
 
-Id: 7
-Name: Cooler Master SickleFlow 120 ARGB
-Cost: 899
-Rating: 8
-FanSize: 120
-TypeOfPowerSupply: 4-pin
-EnergyConsumption: 12
-
-Id: 8
-Name: ID-Cooling ZF-14025-ARGB
-Cost: 899
-Rating: 8
+Id: 16
+Name: ID-Cooling NO-14025K
+Cost: 550
+Rating: 60
 FanSize: 140
 TypeOfPowerSupply: 4-pin
-EnergyConsumption: 12
+EnergyConsumption: 5
 
-Id: 9
+Id: 17
+Name: ID-Cooling ZF-14025-ARGB
+Cost: 900
+Rating: 69
+FanSize: 140
+TypeOfPowerSupply: 4-pin
+EnergyConsumption: 5
+
+Id: 18
+Name: Cooler Master SickleFlow 140 ARGB
+Cost: 1150
+Rating: 80
+FanSize: 140
+TypeOfPowerSupply: 4-pin
+EnergyConsumption: 5
+
+Id: 19
 Name: Cooler Master MasterFan MF140R ARGB
 Cost: 1450
-Rating: 8
+Rating: 80
 FanSize: 140
 TypeOfPowerSupply: 4-pin
-EnergyConsumption: 12
-
-Id: 10
-Name: Noctua NF-P14S
-Cost: 1450
-Rating: 7
-FanSize: 140
-TypeOfPowerSupply: 4-pin
-EnergyConsumption: 12
+EnergyConsumption: 5
 

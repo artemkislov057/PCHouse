@@ -1,60 +1,50 @@
-Id: 3
-Name: Be Quiet Dark Rock Pro 4
-Cost: 7400
-Rating: 7
-Socket: LGA 1151-v2, LGA 1151, AM4, LGA 2066, LGA 1200, LGA 1156, LGA 2011-3, AM3, LGA 1155, AM3+, LGA 1366, AM2+, AM2, FM1, LGA 2011, FM2, LGA 1150, FM2+
-Power: 250
-CoolerHeight: 163
-CoolerWidth: 136
-CoolerLength: 146
+Id: 13
+Name: DEEPCOOL Gamma Archer Pro
+Cost: 1200
+Rating: 50
+Socket: LGA 1151-v2, LGA 1151, AM4, LGA 1200, LGA 1156, LGA 1150, AM3, LGA 1155, AM3+, LGA 775, AM2+, AM2, FM1, 940, 754, 939, FM2
+Power: 110
+CoolerHeight: 66
+CoolerWidth: -1
+CoolerLength: -1
 
-Id: 4
-Name: Be Quiet Dark Rock 4 (BK021)
-Cost: 6000
-Rating: 7
-Socket: LGA 1156, LGA 1151, AM4, LGA 2066, LGA 1151-v2, LGA 1200, FM2+, AM3, LGA 1155, AM3+, LGA 1366, AM2+, AM2, FM1, LGA 2011, FM2, LGA 1150, LGA 2011-3
-Power: 200
-CoolerHeight: 160
-CoolerWidth: 136
-CoolerLength: 97
-
-Id: 5
-Name: DeepCool GAMMAXX 400 V2
-Cost: 2150
-Rating: 7
-Socket: LGA 1156, LGA 1151, AM4, LGA 1151-v2, LGA 1200, AM3, LGA 1155, AM3+, LGA 1366, AM2+, AM2, FM1, FM2, LGA 1150, FM2+
-Power: 180
-CoolerHeight: 155
-CoolerWidth: 129
-CoolerLength: 77
-
-Id: 6
-Name: DeepCool GAMMAXX 300
+Id: 14
+Name: DEEPCOOL GAMMAXX 300
 Cost: 1500
-Rating: 7
+Rating: 60
 Socket: LGA 1151-v2, LGA 1151, AM4, LGA 1200, LGA 1150, LGA 1156, AM3, LGA 1155, AM3+, LGA 775, LGA 1366, AM2+, AM2, FM1, FM2, FM2+
 Power: 130
 CoolerHeight: 136
-CoolerWidth: 121
-CoolerLength: 76
+CoolerWidth: -1
+CoolerLength: -1
 
-Id: 7
-Name: DeepCool GAMMA ARCHER
-Cost: 600
-Rating: 5
-Socket: LGA 1151, AM4, LGA 1151-v2, LGA 1200, LGA 1156, AM3, LGA 1155, AM3+, LGA 775, AM2+, AM2, FM1, FM2, LGA 1150
-Power: 95
-CoolerHeight: 66
-CoolerWidth: 124
-CoolerLength: 121
-
-Id: 8
-Name: DEEPCOOL GAMMAXX GTE V2 
-Cost: 2100
-Rating: 8
+Id: 15
+Name: DEEPCOOL GAMMAXX GTE V2
+Cost: 2400
+Rating: 70
 Socket: AM4, LGA 1151-v2, LGA 1200, AM3, LGA 1151, LGA 1155, AM3+, LGA 1366, AM2+, AM2, FM1, FM2, LGA 1150, FM2+
 Power: 180
 CoolerHeight: 158
-CoolerWidth: 129
-CoolerLength: 77
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 16
+Name: ID-Cooling SE-223 BASIC
+Cost: 1350
+Rating: 70
+Socket: LGA 1151-v2, LGA 1156, LGA 1151, LGA 2066, LGA 1200, LGA 1155, LGA 2011, LGA 1150
+Power: 130
+CoolerHeight: 135
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 17
+Name: Xilence M402
+Cost: 1000
+Rating: 70
+Socket: AM4, LGA 1156, FM2+, AM3, LGA 1155, AM3+, AM2+, AM2, FM1, FM2, LGA 1150
+Power: 130
+CoolerHeight: 137
+CoolerWidth: -1
+CoolerLength: -1
 

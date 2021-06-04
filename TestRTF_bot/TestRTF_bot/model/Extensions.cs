@@ -8,9 +8,9 @@ namespace TestRTF_bot.model
 {
     public static class Extensions
     {
-        public static string[] GetLines(this string line)
+        public static string[] GetArray(this string line)
         {
-            return line.Split("\n");
+            return line.Split(", ");
         }
     }
 }

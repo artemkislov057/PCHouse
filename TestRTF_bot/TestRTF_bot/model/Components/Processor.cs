@@ -21,7 +21,7 @@ namespace TestRTF_bot.Models.Accessories
         public bool IsCompatible(IComponent otherComponent)
         {
             if (otherComponent is RAM ram)
-                return ram.Frequency - RamFrequency < 1e-7;
+                return true;
             if(otherComponent is Motherboard motherboard)
                 return motherboard.IsCompatible(this);
             return true;
