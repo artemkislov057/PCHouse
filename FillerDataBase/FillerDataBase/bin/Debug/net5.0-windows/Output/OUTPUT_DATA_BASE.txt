@@ -274,3 +274,39 @@ SSD: Samsung 970 EVO Plus (500 Gb)
 Цель:  Programming
 Бюджет: >80
 
+Процессор: Intel Core i9-10850K 3.6(5.2)MHz 20MB
+Материнская плата: ASUS PRIME Z490-P
+Видеокарта: Gigabyte Gaming nVidia GeForce RTX 3080 10GB GDDR6X
+RAM: HyperX DDR4 32GB (2x16GB) 3200GHz Fury Black
+HDD: Seagate Barracuda 2TB 256MB 7200RPM 3.5"
+SSD: Samsung 970 EVO Plus (500 Gb)
+Охлаждение: NZXT Kraken X63 Liquid Cooler
+Блок питания: THERMALTAKE Toughpower iRGB Plus
+Корпус: Deepcool MATREXX 55 V3 ADD-RGB 3F без БП Black
+Цель:  Gaming
+Бюджет: >100
+
+Процессор: Ryzen 7 3800x 3.9(4.5)MHz 32MB sAM4
+Материнская плата: MSI MPG B550 GAMING PLUS
+Видеокарта: Gigabyte Gaming nVidia GeForce RTX 3080 10GB GDDR6X
+RAM: HyperX DDR4 32GB (2x16GB) 3200GHz Fury Black 
+HDD: Seagate Barracuda 2TB 256MB 7200RPM 3.5"
+SSD: Samsung 970 EVO Plus (500 Gb)
+Охлаждение: ID-Cooling SE-224-XT
+Блок питания: THERMALTAKE Toughpower iRGB Plus
+Корпус: Deepcool MATREXX 55 V3 ADD-RGB 3F без БП Black
+Цель:  VideoEditing
+Бюджет: >100
+
+Процессор: Intel Core i9-10850K 3.6(5.2)MHz 20MB
+Материнская плата: ASUS PRIME Z490-P
+Видеокарта: MSI RTX2070 8GB GDDR6
+RAM: HyperX DDR4 32GB (2x16GB) 3200GHz Fury Black
+HDD: Seagate Barracuda 2TB 256MB 7200RPM 3.5"
+SSD: Samsung 970 EVO Plus (500 Gb)
+Охлаждение: NZXT Kraken X63 Liquid Cooler
+Блок питания: CHIEFTEC Polaris 750W
+Корпус: Deepcool MATREXX 55 V3 ADD-RGB 3F без БП Black
+Цель:  Programming
+Бюджет: >100
+

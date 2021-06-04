@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestRTF_bot.Controllers
 {
-    class Budget
+    public class Budget
     {
         public int MinValue { get; }
         public int MaxValue { get; }
