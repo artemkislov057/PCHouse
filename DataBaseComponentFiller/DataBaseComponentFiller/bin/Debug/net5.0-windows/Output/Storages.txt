@@ -22,3 +22,57 @@ Cost: 4600
 Rating: 40
 EnergyConsumption: 15
 
+Id: 13
+Name: Seagate 7200 Exos 7E2
+Cost: 6200
+Rating: 72
+EnergyConsumption: 15
+
+Id: 14
+Name: Seagate BarraCuda
+Cost: 9500
+Rating: 79
+EnergyConsumption: 15
+
+Id: 15
+Name: Seagate 5900 SkyHawk
+Cost: 14000
+Rating: 81
+EnergyConsumption: 15
+
+Id: 16
+Name: Seagate Exos 7E8
+Cost: 21000
+Rating: 99
+EnergyConsumption: 15
+
+Id: 17
+Name: Seagate Exos 7E8
+Cost: 29000
+Rating: 100
+EnergyConsumption: 15
+
+Id: 18
+Name: Toshiba P300
+Cost: 2900
+Rating: 68
+EnergyConsumption: 15
+
+Id: 19
+Name: WD Purple
+Cost: 6500
+Rating: 70
+EnergyConsumption: 15
+
+Id: 20
+Name: AMD Radeon R5 Series
+Cost: 1800
+Rating: 45
+EnergyConsumption: 15
+
+Id: 21
+Name: A-Data SU630
+Cost: 2700
+Rating: 28
+EnergyConsumption: 15
+

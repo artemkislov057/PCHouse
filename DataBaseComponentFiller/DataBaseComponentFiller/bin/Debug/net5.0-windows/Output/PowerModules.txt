@@ -52,3 +52,147 @@ PinPowerCP: 4+4-pin, 8-pin
 PinPowerVideoCard: 6+2-pin, 6+2-pin, 6+2-pin, 6+2-pin, 6+2-pin, 6+2-pin
 SataCount: 12
 
+Id: 14
+Name: Aerocool ECO 400W
+Cost: 1400
+Rating: 1
+Power: 400
+PinPowerCP: 4-pin
+PinPowerVideoCard: 6-pin
+SataCount: 2
+
+Id: 15
+Name: DEXP DPS-400
+Cost: 1650
+Rating: 10
+Power: 400
+PinPowerCP: 4-pin
+PinPowerVideoCard: 6-pin
+SataCount: 3
+
+Id: 16
+Name: Aerocool ECO 500W
+Cost: 2000
+Rating: 5
+Power: 500
+PinPowerCP: 4-pin
+PinPowerVideoCard: 6-pin
+SataCount: 3
+
+Id: 17
+Name: Aerocool VX PLUS 500W
+Cost: 2200
+Rating: 10
+Power: 500
+PinPowerCP: 4+4-pin
+PinPowerVideoCard: 6+2-pin
+SataCount: 3
+
+Id: 18
+Name: Xilence Red Wings 7 XN056 550W
+Cost: 2350
+Rating: 15
+Power: 550
+PinPowerCP: 4+4-pin
+PinPowerVideoCard: 6+2-pin
+SataCount: 4
+
+Id: 19
+Name: Aerocool VX PLUS 600W
+Cost: 2550
+Rating: 15
+Power: 600
+PinPowerCP: 4+4-pin
+PinPowerVideoCard: 6+2-pin, 6+2-pin
+SataCount: 4
+
+Id: 20
+Name: Aerocool VX PLUS 650W
+Cost: 2900
+Rating: 15
+Power: 650
+PinPowerCP: 4+4-зшт
+PinPowerVideoCard: 6+2-pin, 6+2-pin
+SataCount: 4
+
+Id: 21
+Name: Chieftec iARENA 450W
+Cost: 3000
+Rating: 40
+Power: 450
+PinPowerCP: 4-pin
+PinPowerVideoCard: 6+2-pin
+SataCount: 5
+
+Id: 22
+Name: Xilence Red Wings XN054 700W
+Cost: 3000
+Rating: 25
+Power: 700
+PinPowerCP: 4+4-pin
+PinPowerVideoCard: 6+2-pin, 6-pin
+SataCount: 6
+
+Id: 23
+Name: Aerocool KCAS PLUS 400W
+Cost: 3400
+Rating: 1
+Power: 400
+PinPowerCP: 4+4-pin
+PinPowerVideoCard: 6+2-pin, 6+2-pin
+SataCount: 6
+
+Id: 24
+Name: Cougar STX650
+Cost: 3400
+Rating: 40
+Power: 650
+PinPowerCP: 4+4-pin
+PinPowerVideoCard: 6+2-pin, 6+2-pin
+SataCount: 6
+
+Id: 25
+Name: Aerocool VX PLUS 750W
+Cost: 3550
+Rating: 30
+Power: 750
+PinPowerCP: 4+4-pin
+PinPowerVideoCard: 6+2-pin, 6+2-pin
+SataCount: 6
+
+Id: 27
+Name: Chieftec Element 600W
+Cost: 4200
+Rating: 45
+Power: 600
+PinPowerCP: 4+4-pin
+PinPowerVideoCard: 6+2-pin, 6+2-pin
+SataCount: 4
+
+Id: 28
+Name: Thermaltake TR2 S 650W
+Cost: 4450
+Rating: 45
+Power: 650
+PinPowerCP: 4+4-pin
+PinPowerVideoCard: 6+2-pin
+SataCount: 5
+
+Id: 29
+Name: Chieftec A-80 Series 650W
+Cost: 4700
+Rating: 47
+Power: 650
+PinPowerCP: 4+4-pin
+PinPowerVideoCard: 6+2-pin, 6+2-pin
+SataCount: 6
+
+Id: 30
+Name: Chieftec Element 700W
+Cost: 4800
+Rating: 50
+Power: 700
+PinPowerCP: 4+4-pin
+PinPowerVideoCard: 6+2-pin, 6+2-pin
+SataCount: 6
+

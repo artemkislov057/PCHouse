@@ -18,7 +18,6 @@ namespace TestRTF_bot.tests
         [Test]
         public void PickerTest()
         {
-            var minCost = 20000;
             var delta = 20000;
             var step = 10000;
             var targets = new ITarget[]
@@ -30,10 +29,10 @@ namespace TestRTF_bot.tests
             };
             foreach (var target in targets)
             {
-                for (; minCost + delta < 120000; minCost += step)
+                for (var minCost = 20000; minCost + delta < 120000; minCost += step)
                 {
                     var result = picker.GetConfigurations(new UserInformation(minCost, minCost + delta, target));
-                    Assert.IsTrue(result.Length > 0, $"\tMinCost = {minCost}\n\tMaxCost = {minCost + delta}\n\tTarget = \"{target.GetType().Name}\"");
+                    Assert.IsTrue(result.Length > 0, $"Не найдено ни одной сборки!\n\tMinCost = {minCost}\n\tMaxCost = {minCost + delta}\n\tTarget = \"{target.GetType().Name}\"");
                 }
             }
         }

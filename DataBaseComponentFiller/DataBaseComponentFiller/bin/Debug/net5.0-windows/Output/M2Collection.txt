@@ -52,3 +52,117 @@ Cost: 7500
 Rating: 90
 Length: -1
 
+Id: 20
+Name: Transcend MTS820
+Cost: 1800
+Rating: 35
+Length: -1
+
+Id: 21
+Name: Smartbuy S11T
+Cost: 2600
+Rating: 41
+Length: -1
+
+Id: 22
+Name: Kingston A400
+Cost: 2800
+Rating: 43
+Length: -1
+
+Id: 23
+Name: Apacer PPSS80
+Cost: 2850
+Rating: 47
+Length: -1
+
+Id: 24
+Name: WD Green
+Cost: 2900
+Rating: 48
+Length: -1
+
+Id: 25
+Name: Apacer PP3480
+Cost: 3000
+Rating: 49
+Length: -1
+
+Id: 26
+Name: A-Data Ultimate SU650
+Cost: 3200
+Rating: 54
+Length: -1
+
+Id: 27
+Name: SiliconPower M55
+Cost: 3100
+Rating: 53
+Length: -1
+
+Id: 28
+Name: Goodram PX500
+Cost: 3400
+Rating: 56
+Length: -1
+
+Id: 29
+Name: Intel 760p Series
+Cost: 3500
+Rating: 57
+Length: -1
+
+Id: 30
+Name: GIGABYTE NVMe SSD
+Cost: 3800
+Rating: 60
+Length: -1
+
+Id: 31
+Name: SiliconPower P34A80
+Cost: 3900
+Rating: 62
+Length: -1
+
+Id: 32
+Name: DEXP L2 RGB
+Cost: 4000
+Rating: 68
+Length: -1
+
+Id: 33
+Name: HP EX920
+Cost: 4100
+Rating: 67
+Length: -1
+
+Id: 34
+Name: A-Data XPG GAMMIX S11 Pro
+Cost: 4200
+Rating: 70
+Length: -1
+
+Id: 35
+Name: Apacer PP3480
+Cost: 4300
+Rating: 71
+Length: -1
+
+Id: 36
+Name: Netac N950E Pro
+Cost: 4800
+Rating: 69
+Length: -1
+
+Id: 37
+Name: WD Black SN750
+Cost: 4900
+Rating: 75
+Length: -1
+
+Id: 38
+Name: Kingston A400 
+Cost: 4900
+Rating: 73
+Length: -1
+

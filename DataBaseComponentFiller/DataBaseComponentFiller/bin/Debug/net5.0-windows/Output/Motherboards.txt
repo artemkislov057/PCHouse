@@ -160,3 +160,21 @@ CoolerHeight: -1
 CoolerWidth: -1
 CoolerLength: -1
 
+Id: 19
+Name: MSI MAG B550 TOMAHAWK
+Cost: 14000
+Rating: 75
+Socket: AM4
+RAM: DDR4
+RAMFrequency: 5100
+RAMTimings: CL16, CL17, CL18, CL19
+ARRAY_ProcessorCoolings: 4-pin, 4-pin
+ARRAY_CaseCoolings: 4-pin, 4-pin, 4-pin, 4-pin, 4-pin, 4-pin
+SataInterfaceCount: 6
+M2Length: 2280
+FormFactor: Standard-ATX
+PinPowerCP: 4+4-pin
+CoolerHeight: -1
+CoolerWidth: -1
+CoolerLength: -1
+

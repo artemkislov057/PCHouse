@@ -34,3 +34,102 @@ Frequency: 3000
 Timings: CL16
 EnergyConsumption: 10
 
+Id: 13
+Name: PATRIOT Viper 4
+Cost: 4800
+Rating: 50
+TypeMemory: 8 Гб
+Frequency: 3000
+Timings: CL16
+EnergyConsumption: 10
+
+Id: 14
+Name: CORSAIR Vengeance LPX
+Cost: 5290
+Rating: 50
+TypeMemory: 16 Гб
+Frequency: 2666
+Timings: CL16
+EnergyConsumption: 10
+
+Id: 15
+Name: PATRIOT Signature
+Cost: 3650
+Rating: 50
+TypeMemory: 8 Гб
+Frequency: 2133
+Timings: CL15
+EnergyConsumption: 10
+
+Id: 16
+Name: PATRIOT PSD48G2400K
+Cost: 4200
+Rating: 50
+TypeMemory: 8 Гб
+Frequency: 2400
+Timings: CL17
+EnergyConsumption: 10
+
+Id: 17
+Name: CORSAIR Vengeance LPX
+Cost: 8890
+Rating: 70
+TypeMemory: 16 Гб
+Frequency: 2400
+Timings: CL16
+EnergyConsumption: 10
+
+Id: 18
+Name: KINGSTON HyperX Predator
+Cost: 9200
+Rating: 85
+TypeMemory: 16 Гб
+Frequency: 3333
+Timings: CL16
+EnergyConsumption: 10
+
+Id: 19
+Name: CORSAIR Vengeance RGB Pro
+Cost: 9600
+Rating: 85
+TypeMemory: 16 Гб
+Frequency: 3200
+Timings: CL16
+EnergyConsumption: 10
+
+Id: 20
+Name: CRUCIAL Ballistix
+Cost: 14600
+Rating: 90
+TypeMemory: 32 Гб
+Frequency: 2666
+Timings: CL16
+EnergyConsumption: 10
+
+Id: 21
+Name: PATRIOT Viper Elite
+Cost: 15400
+Rating: 92
+TypeMemory: 32 Гб
+Frequency: 2666
+Timings: CL16
+EnergyConsumption: 10
+
+Id: 22
+Name: KINGSTON HyperX Predator
+Cost: 16800
+Rating: 93
+TypeMemory: 32 Гб
+Frequency: 2666
+Timings: CL13
+EnergyConsumption: 10
+
+Id: 23
+Name: AMD Radeon R7 Performance Series
+Cost: 1900
+Rating: 20
+TypeMemory: 4 Гб
+Frequency: 2133
+Timings: CL15
+EnergyConsumption: 5
+

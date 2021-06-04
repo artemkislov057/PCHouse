@@ -58,3 +58,103 @@ Height: -1
 EnergyConsumption: 400
 PinPowerVideoCard: 6+2-pin, 6+2-pin, 6+2-pin
 
+Id: 16
+Name: KFA2 GeForce 210
+Cost: 3000
+Rating: 15
+Length: 168
+Width: -1
+Height: -1
+EnergyConsumption: 31
+PinPowerVideoCard: -1
+
+Id: 17
+Name: MSI GeForce GT 710 Silent LP
+Cost: 3200
+Rating: 20
+Length: 146
+Width: -1
+Height: -1
+EnergyConsumption: 19
+PinPowerVideoCard: -1
+
+Id: 18
+Name: MSI GeForce GT 730
+Cost: 5400
+Rating: 25
+Length: 151
+Width: -1
+Height: -1
+EnergyConsumption: 49
+PinPowerVideoCard: -1
+
+Id: 19
+Name: MSI GeForce GT 1030 LP OC
+Cost: 5700
+Rating: 26
+Length: 150
+Width: -1
+Height: -1
+EnergyConsumption: 20
+PinPowerVideoCard: -1
+
+Id: 20
+Name: PowerColor AMD Radeon RX 550 Red Dragon
+Cost: 11300
+Rating: 39
+Length: 152
+Width: -1
+Height: -1
+EnergyConsumption: 50
+PinPowerVideoCard: -1
+
+Id: 21
+Name: Gigabyte GeForce GTX 1050 Ti
+Cost: 21500
+Rating: 42
+Length: 171
+Width: -1
+Height: -1
+EnergyConsumption: 75
+PinPowerVideoCard: -1
+
+Id: 22
+Name: GIGABYTE nVidia GeForce GTX 1660
+Cost: 56000
+Rating: 64
+Length: 226
+Width: -1
+Height: -1
+EnergyConsumption: 135
+PinPowerVideoCard: 6+2-pin
+
+Id: 23
+Name: ASUS AMD Radeon R7 240
+Cost: 7290
+Rating: 30
+Length: 147
+Width: -1
+Height: -1
+EnergyConsumption: 75
+PinPowerVideoCard: -1
+
+Id: 24
+Name: MSI AMD Radeon RX 6700XT
+Cost: 121000
+Rating: 79
+Length: 279
+Width: -1
+Height: -1
+EnergyConsumption: 250
+PinPowerVideoCard: 6+2-pin, 6+2-pin
+
+Id: 25
+Name: GIGABYTE AMD Radeon RX 6700XT
+Cost: 122000
+Rating: 81
+Length: 281
+Width: -1
+Height: -1
+EnergyConsumption: 250
+PinPowerVideoCard: 6+2-pin, 6-pin
+

@@ -48,3 +48,63 @@ CoolerHeight: 137
 CoolerWidth: -1
 CoolerLength: -1
 
+Id: 20
+Name: ID-Cooling DK-01
+Cost: 500
+Rating: 65
+Socket: LGA 1200, LGA 1151, LGA 1151-v2, LGA 1156, AM3, LGA 1155, AM3+, LGA 775, AM2+, AM2, FM1, FM2, LGA 1150, FM2+
+Power: 95
+CoolerHeight: 52
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 21
+Name: AeroCool Verkho Plus
+Cost: 700
+Rating: 70
+Socket: LGA 1151, AM4, LGA 1151-v2, LGA 1200, LGA 1156, AM3, LGA 1155, AM3+, LGA 775, AM2+, AM2, FM1, FM2, LGA 1150
+Power: 110
+CoolerHeight: 68
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 22
+Name: ID-Cooling DK-03
+Cost: 800
+Rating: 70
+Socket: LGA 1151, LGA 1151-v2, LGA 1156, AM2, FM2, LGA 1150, FM2+, AM2+, LGA 775, AM3+, LGA 1155, AM3, FM1
+Power: 100
+CoolerHeight: 63
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 23
+Name: AeroCool Core Plus
+Cost: 1000
+Rating: 70
+Socket: LGA 1151, AM4, LGA 1151-v2, LGA 1200, LGA 1156, AM3, LGA 1155, AM3+, LGA 775, AM2+, AM2, FM1, FM2, LGA 1150
+Power: 110
+CoolerHeight: 83
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 24
+Name: AeroCool Verkho 2 Dual
+Cost: 1200
+Rating: 70
+Socket: LGA 1151, AM4, LGA 1151-v2, LGA 1200, LGA 1156, AM3, LGA 1155, AM3+, LGA 775, AM2+, AM2, FM1, FM2, LGA 1150
+Power: 120
+CoolerHeight: 135
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 25
+Name: PCCooler GI-X3B
+Cost: 1550
+Rating: 70
+Socket: LGA 1151, AM4, LGA 1151-v2, LGA 1200, LGA 1156, AM3, LGA 1155, LGA 775, AM2, LGA 1150
+Power: 125
+CoolerHeight: 154
+CoolerWidth: -1
+CoolerLength: -1
+
