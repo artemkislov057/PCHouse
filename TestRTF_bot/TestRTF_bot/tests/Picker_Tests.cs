@@ -17,7 +17,7 @@ namespace TestRTF_bot.tests
         public void Test1()
         {
             var picker = new ComponentPicker();
-            var user = new UserInformation(0, 1000000, new ProgrammingTarget());
+            var user = new UserInformation(0, 100000, new ProgrammingTarget());
             var result = picker.GetConfigurations(user);
         }
 

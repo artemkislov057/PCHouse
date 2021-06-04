@@ -63,7 +63,7 @@ namespace TestRTF_bot.Controllers
 
         private string GetBestConfigurationPC(UserInformation user)
         {
-            var target = user.Target;
+            var target = user.TargetInterface;
             var budget = user.Budget;
             try
             {
