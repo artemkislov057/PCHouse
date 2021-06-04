@@ -10,33 +10,32 @@ using TestRTF_bot.Models.Accessories;
 
 namespace TestRTF_bot.tests
 {
-    
+
     class Picker_Tests
     {
-        [Test]
-        public void Test1()
-        {
-            var picker = new ComponentPicker();
-            var user = new UserInformation(0, 100000, new ProgrammingTarget());
-            var result = picker.GetConfigurations(user);
-        }
+        private static ComponentPicker picker = new ComponentPicker();
 
         [Test]
-        public void Test2()
+        public void PickerTest()
         {
-            var db = DataBase.DefaultDataBase();
-            var list = new List<Tuple<Case, Motherboard>>();
-            foreach (var first in db.Cases)
+            var minCost = 20000;
+            var delta = 20000;
+            var step = 10000;
+            var targets = new ITarget[]
             {
-                foreach (var second in db.Motherboards)
+                new OfficeTarget(),
+                new GameTarget(),
+                new ProgrammingTarget(),
+                new VideoEditingTarget()
+            };
+            foreach (var target in targets)
+            {
+                for (; minCost + delta < 120000; minCost += step)
                 {
-                    if (first.IsCompatible(second))
-                    {
-                        list.Add(Tuple.Create(first, second));
-                    }
+                    var result = picker.GetConfigurations(new UserInformation(minCost, minCost + delta, target));
+                    Assert.IsTrue(result.Length > 0, $"\tMinCost = {minCost}\n\tMaxCost = {minCost + delta}\n\tTarget = \"{target.GetType().Name}\"");
                 }
             }
-
         }
     }
 }
