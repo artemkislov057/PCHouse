@@ -23,5 +23,9 @@ namespace TestRTF_bot.Controllers
             var random = new Random();
             return stickersURL[random.Next() % stickersURL.Count];
         }
+        public static string f()
+        {
+            return "https://sun9-49.userapi.com/impg/myb_fBy2FigOtF1-1hweC35LPyaijMs52VLWOg/ACnpvEYmSSs.jpg?size=1919x959&quality=96&sign=d7045fe9c7312ad9242f03bf07be68b9&type=album";
+        }
     }
 }

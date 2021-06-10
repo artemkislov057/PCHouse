@@ -8,9 +8,9 @@ namespace TestRTF_bot.Controllers
 {
     public enum State
     {
-        Start,
+        Menu,
         ChoosingBudget,
         ChoosingTarget,
-        GettingComponents
+        End
     }
 }

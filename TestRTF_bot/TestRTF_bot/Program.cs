@@ -12,7 +12,6 @@ namespace TestRTF_bot
         static void Main(string[] args)
         {
             botController = new BotController();
-            botController.client = new TelegramBotClient(botController.Token);
             botController.client.StartReceiving();
             botController.client.OnMessage += OnMessageHandler;
             Console.ReadLine();
