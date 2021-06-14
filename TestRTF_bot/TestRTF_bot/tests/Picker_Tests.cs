@@ -32,7 +32,7 @@ namespace TestRTF_bot.tests
                 for (var minCost = 20000; minCost + delta < 120000; minCost += step)
                 {
                     var result = picker.GetConfigurations(new UserInformation(minCost, minCost + delta, target));
-                    Assert.IsTrue(result.Length > 0, $"Не найдено ни одной сборки!\n\tMinCost = {minCost}\n\tMaxCost = {minCost + delta}\n\tTarget = \"{target.GetType().Name}\"");
+                    Assert.IsTrue(result.Any(), $"Не найдено ни одной сборки!\n\tMinCost = {minCost}\n\tMaxCost = {minCost + delta}\n\tTarget = \"{target.GetType().Name}\"");
                 }
             }
         }

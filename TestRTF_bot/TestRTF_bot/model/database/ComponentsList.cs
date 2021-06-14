@@ -22,15 +22,29 @@ namespace TestRTF_bot.model.database
             return Count;
         }
 
-        public IEnumerable<T> GetRange(int minCost, int maxCost)
+        public IEnumerable<T> GetRangeCost(int minCost, int maxCost)
         {
             for (var i = GetIndexOfMoreOrEqual(minCost); i < Count && this[i].Cost <= maxCost; i++)
                 yield return this[i];
         }
 
-        public T[] GetRangeArray(int minCost, int maxCost)
+        public T[] GetRangeCostArray(int minCost, int maxCost)
         {
-            return GetRange(minCost, maxCost).ToArray();
+            return GetRangeCost(minCost, maxCost).ToArray();
+        }
+
+        public IEnumerable<T> GetRangeIndex(int leftCost, int range, int percent)
+        {
+            var index = GetIndexOfMoreOrEqual(leftCost * percent / 100);
+            if (index - range < 0)
+                index = range;
+            for (var i = index - range; i < Count && i < index + range; i++)
+                yield return this[i];
+        }
+
+        public T[] GetRangeIndexArray(int cost, int range, int percent)
+        {
+            return GetRangeIndex(cost, range, percent).ToArray();
         }
     }
 }

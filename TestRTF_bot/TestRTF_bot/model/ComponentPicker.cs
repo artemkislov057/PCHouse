@@ -48,50 +48,52 @@ namespace TestRTF_bot.model
             Data = DataBase.DefaultDataBase();
         }
 
-        private const int processorDelta = 10;
-        private const int motherboardDelta = 20;
-        private const int videoCardDelta = 20;
-        private const int ramDelta = 30;
-        private const int powerModuleDelta = 10;
-        private const int processorCoolingDelta = 30;
-        private const int caseDelta = 20;
-        private const int storageDelta = 20;
-        private const int m2Delta = 10;
-        private const int caseCoolingDelta = 30;
+        //private const int processorDelta = 10;
+        //private const int motherboardDelta = 20;
+        //private const int videoCardDelta = 20;
+        //private const int ramDelta = 30;
+        //private const int powerModuleDelta = 10;
+        //private const int processorCoolingDelta = 30;
+        //private const int caseDelta = 20;
+        //private const int storageDelta = 20;
+        //private const int m2Delta = 10;
+        //private const int caseCoolingDelta = 30;
 
-        public ConfigurationPC[] GetConfigurations(UserInformation userInformation)
+        public IEnumerable<ConfigurationPC> GetConfigurations(UserInformation userInformation)
         {
             var result = new SortedSet<ConfigurationPC>(new ConfigurationComparer());
-            var processors = Data.Processors.GetRange(userInformation.MaxCost * (userInformation.TargetInterface.ProcessorPercent - processorDelta) / 100, userInformation.MaxCost * (userInformation.TargetInterface.ProcessorPercent + processorDelta) / 100);
+            var target = userInformation.TargetInterface;
+            var cost = (userInformation.MinCost + userInformation.MaxCost) / 2;
+            var processors = Data.Processors.GetRangeIndex(cost, 5, target.ProcessorPercent);
             foreach (var processor in processors)
             {
                 var costWithoutProcessor = userInformation.MaxCost - processor.Cost;
                 var motherboards = Data.Motherboards
-                    .GetRange(costWithoutProcessor * (userInformation.TargetInterface.MotherboardPercent - motherboardDelta) / 100, costWithoutProcessor * (userInformation.TargetInterface.MotherboardPercent + motherboardDelta) / 100)
+                    .GetRangeIndex(costWithoutProcessor, 3, target.MotherboardPercent)
                     .Where(mb => mb.IsCompatible(processor));
                 foreach (var motherboard in motherboards)
                 {
                     var costWithoutMotherboard = costWithoutProcessor - motherboard.Cost;
                     var videocards = Data.VideoCards
-                        .GetRange(costWithoutMotherboard * (userInformation.TargetInterface.VideoCardPercent - videoCardDelta) / 100, costWithoutMotherboard * (userInformation.TargetInterface.VideoCardPercent + videoCardDelta) / 100)
+                        .GetRangeIndex(costWithoutMotherboard, 3, target.VideoCardPercent)
                         .Where(vc => vc.IsCompatible(motherboard));
                     foreach (var videocard in videocards)
                     {
                         var costWithoutVideoCard = costWithoutMotherboard - videocard.Cost;
                         var rams = Data.RAMs
-                            .GetRange(costWithoutVideoCard * (userInformation.TargetInterface.RAMPercent - ramDelta) / 100, costWithoutVideoCard * (userInformation.TargetInterface.RAMPercent + ramDelta) / 100)
+                            .GetRangeIndex(costWithoutVideoCard, 3, target.RAMPercent)
                             .Where(r => r.IsCompatible(motherboard));
                         foreach (var ram in rams)
                         {
                             var costWithoutRAM = costWithoutVideoCard - ram.Cost;
                             var powerModules = Data.PowerModules
-                                .GetRange(costWithoutRAM * (userInformation.TargetInterface.PowerModulePercent - powerModuleDelta) / 100, costWithoutRAM * (userInformation.TargetInterface.PowerModulePercent + powerModuleDelta) / 100)
+                                .GetRangeIndex(costWithoutRAM, 3, target.PowerModulePercent)
                                 .Where(pm => pm.IsCompatible(motherboard));
                             foreach (var powerModule in powerModules)
                             {
                                 var costWithoutPowerModule = costWithoutRAM - powerModule.Cost;
                                 var processorCoolings = Data.ProcessorCoolings
-                                    .GetRange(costWithoutPowerModule * (userInformation.TargetInterface.ProcessorCoolingPercent - processorCoolingDelta) / 100, costWithoutPowerModule * (userInformation.TargetInterface.ProcessorCoolingPercent + processorCoolingDelta) / 100)
+                                    .GetRangeIndex(costWithoutPowerModule, 3, target.ProcessorCoolingPercent)
                                     .Where(c => c.IsCompatible(powerModule)
                                              && c.IsCompatible(motherboard)
                                              && c.IsCompatible(processor));
@@ -99,7 +101,7 @@ namespace TestRTF_bot.model
                                 {
                                     var costWithoutCooling = costWithoutPowerModule - processorCooling.Cost;
                                     var cases = Data.Cases
-                                        .GetRange(costWithoutCooling * (userInformation.TargetInterface.CasePercent - caseDelta) / 100, costWithoutCooling * (userInformation.TargetInterface.CasePercent + caseDelta) / 100)
+                                        .GetRangeIndex(costWithoutCooling, 3, target.CasePercent)
                                         .Where(c => c.IsCompatible(videocard)
                                                  && c.IsCompatible(motherboard)
                                                  && c.IsCompatible(processorCooling));
@@ -107,25 +109,24 @@ namespace TestRTF_bot.model
                                     {
                                         var costWithoutCase = costWithoutCooling - body.Cost;
                                         var storages = Data.Storages
-                                            .GetRange(costWithoutCase * (userInformation.TargetInterface.StoragePercent - storageDelta) / 100, costWithoutCase * (userInformation.TargetInterface.StoragePercent + storageDelta) / 100)
+                                            .GetRangeIndex(costWithoutCase, 3, target.StoragePercent)
                                             .Where(s => s.IsCompatible(motherboard));
                                         foreach (var storage in storages)
                                         {
                                             var costWithoutStorage = costWithoutCase - storage.Cost;
                                             var M2collection = Data.M2Collection
-                                                .GetRange(costWithoutStorage * (userInformation.TargetInterface.M2Percent - m2Delta) / 100, costWithoutStorage * (userInformation.TargetInterface.M2Percent + m2Delta) / 100)
+                                                .GetRangeIndex(costWithoutStorage, 3, target.M2Percent)
                                                 .Where(m2 => m2.IsCompatible(motherboard));
                                             foreach (var m2 in M2collection)
                                             {
                                                 var costWithoutM2 = costWithoutStorage - m2.Cost;
                                                 var caseCoolings = Data.CaseCoolings
-                                                    .GetRange(costWithoutM2 * (userInformation.TargetInterface.CaseCoolingPercent - caseCoolingDelta) / 100, costWithoutM2 * (userInformation.TargetInterface.CaseCoolingPercent + caseCoolingDelta) / 100)
+                                                    .GetRangeIndex(costWithoutM2, 3, target.CaseCoolingPercent)
                                                     .Where(cc => cc.IsCompatible(body));
                                                 foreach (var caseCooling in caseCoolings)
                                                 {
                                                     var confifurationPC = new ConfigurationPC(userInformation, processor, motherboard, videocard, ram, powerModule, processorCooling, body, storage, m2, caseCooling);
-                                                    var cost = confifurationPC.Cost;
-                                                    if (cost >= userInformation.MinCost && cost <= userInformation.MaxCost)
+                                                    if (confifurationPC.Cost >= userInformation.MinCost && confifurationPC.Cost <= userInformation.MaxCost)
                                                         result.Add(confifurationPC);
                                                 }
                                             }
@@ -137,7 +138,7 @@ namespace TestRTF_bot.model
                     }
                 }
             }
-            return result.Take(5).ToArray();
+            return result;
         }
 
         class ConfigurationComparer : IComparer<ConfigurationPC>
