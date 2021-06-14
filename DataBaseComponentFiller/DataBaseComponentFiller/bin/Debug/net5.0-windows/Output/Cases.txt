@@ -70,3 +70,171 @@ MaximumWidthOfVideoCard: -1
 MaximumHeightOfVideoCard: -1
 MaximumLengthOfVideoCard: 370
 
+Id: 15
+Name: NZXT H510
+Cost: 6300
+Rating: 95
+ARRAY_FormFactor: Mini-ITX, Micro-ATX, Standard-ATX
+ARRAY_FanSlotsAndSize: 120, 120, 120, 120
+PossibilityOfInstallationWaterCooling: True
+MaximumHeightOfTowerCooler: 165
+MaximumWidthOfVideoCard: -1
+MaximumHeightOfVideoCard: -1
+MaximumLengthOfVideoCard: 381
+
+Id: 16
+Name: NZXT H710i
+Cost: 14200
+Rating: 97
+ARRAY_FormFactor: E-ATX, Micro-ATX, Mini-ITX, Standard-ATX
+ARRAY_FanSlotsAndSize: 120, 120, 120, 120, 120, 120, 120
+PossibilityOfInstallationWaterCooling: True
+MaximumHeightOfTowerCooler: 185
+MaximumWidthOfVideoCard: -1
+MaximumHeightOfVideoCard: -1
+MaximumLengthOfVideoCard: 413
+
+Id: 17
+Name: NZXT H510 Elite
+Cost: 14500
+Rating: 99
+ARRAY_FormFactor: Micro-ATX, Mini-ITX, Standard-ATX
+ARRAY_FanSlotsAndSize: 120, 120, 120, 120
+PossibilityOfInstallationWaterCooling: True
+MaximumHeightOfTowerCooler: 165
+MaximumWidthOfVideoCard: -1
+MaximumHeightOfVideoCard: -1
+MaximumLengthOfVideoCard: 368
+
+Id: 18
+Name: DEXP DC-201M
+Cost: 1700
+Rating: 30
+ARRAY_FormFactor: Mini-ITX, Micro-ATX
+ARRAY_FanSlotsAndSize: 120
+PossibilityOfInstallationWaterCooling: False
+MaximumHeightOfTowerCooler: 142
+MaximumWidthOfVideoCard: -1
+MaximumHeightOfVideoCard: -1
+MaximumLengthOfVideoCard: 300
+
+Id: 19
+Name: DEXP DC-101B
+Cost: 1800
+Rating: 32
+ARRAY_FormFactor: Micro-ATX, Standard-ATX, Mini-ITX
+ARRAY_FanSlotsAndSize: 120, 120, 120, 120
+PossibilityOfInstallationWaterCooling: True
+MaximumHeightOfTowerCooler: 166
+MaximumWidthOfVideoCard: -1
+MaximumHeightOfVideoCard: -1
+MaximumLengthOfVideoCard: 370
+
+Id: 20
+Name: Aerocool Tomahawk-S
+Cost: 2200
+Rating: 35
+ARRAY_FormFactor: Micro-ATX, Standard-ATX, Mini-ITX
+ARRAY_FanSlotsAndSize: 120, 120, 120, 120
+PossibilityOfInstallationWaterCooling: False
+MaximumHeightOfTowerCooler: 167
+MaximumWidthOfVideoCard: -1
+MaximumHeightOfVideoCard: -1
+MaximumLengthOfVideoCard: 324
+
+Id: 21
+Name: Aerocool Tomahawk-A
+Cost: 2500
+Rating: 41
+ARRAY_FormFactor: Micro-ATX, Standard-ATX, Mini-ITX
+ARRAY_FanSlotsAndSize: 120, 120, 120, 120
+PossibilityOfInstallationWaterCooling: False
+MaximumHeightOfTowerCooler: 157
+MaximumWidthOfVideoCard: -1
+MaximumHeightOfVideoCard: -1
+MaximumLengthOfVideoCard: 324
+
+Id: 22
+Name: Thermaltake Versa H17
+Cost: 3200
+Rating: 49
+ARRAY_FormFactor: Micro-ATX, Mini-ITX
+ARRAY_FanSlotsAndSize: 120, 120, 120, 120, 120
+PossibilityOfInstallationWaterCooling: True
+MaximumHeightOfTowerCooler: 155
+MaximumWidthOfVideoCard: -1
+MaximumHeightOfVideoCard: -1
+MaximumLengthOfVideoCard: 350
+
+Id: 23
+Name: ZET GAMING Rare M2
+Cost: 3400
+Rating: 45
+ARRAY_FormFactor: E-ATX, Micro-ATX, Mini-ITX, Standard-ATX
+ARRAY_FanSlotsAndSize: 120, 120, 120, 120, 120, 120
+PossibilityOfInstallationWaterCooling: True
+MaximumHeightOfTowerCooler: 165
+MaximumWidthOfVideoCard: -1
+MaximumHeightOfVideoCard: -1
+MaximumLengthOfVideoCard: 380
+
+Id: 24
+Name: Cougar MX331 Mesh-GF
+Cost: 3700
+Rating: 55
+ARRAY_FormFactor: Micro-ATX, Mini-ITX, Standard-ATX
+ARRAY_FanSlotsAndSize: 120, 120, 120, 120, 120
+PossibilityOfInstallationWaterCooling: True
+MaximumHeightOfTowerCooler: 155
+MaximumWidthOfVideoCard: -1
+MaximumHeightOfVideoCard: -1
+MaximumLengthOfVideoCard: 350
+
+Id: 25
+Name: Deepcool MATREXX 55 MESH
+Cost: 4100
+Rating: 70
+ARRAY_FormFactor: E-ATX, Mini-ITX, Micro-ATX, Standard-ATX
+ARRAY_FanSlotsAndSize: 120, 120, 120, 120, 120, 120
+PossibilityOfInstallationWaterCooling: True
+MaximumHeightOfTowerCooler: 168
+MaximumWidthOfVideoCard: -1
+MaximumHeightOfVideoCard: -1
+MaximumLengthOfVideoCard: 370
+
+Id: 26
+Name: AeroCool AirHawk
+Cost: 4600
+Rating: 59
+ARRAY_FormFactor: Micro-ATX, E-ATX, Mini-ITX, Standard-ATX
+ARRAY_FanSlotsAndSize: 120, 120, 120, 120, 120, 120
+PossibilityOfInstallationWaterCooling: True
+MaximumHeightOfTowerCooler: 168
+MaximumWidthOfVideoCard: -1
+MaximumHeightOfVideoCard: -1
+MaximumLengthOfVideoCard: 358
+
+Id: 27
+Name: DEEPCOOL MATREXX 55 V3 ADD-RGB WH
+Cost: 4800
+Rating: 75
+ARRAY_FormFactor: Standard-ATX, Mini-ITX, Micro-ATX, E-ATX
+ARRAY_FanSlotsAndSize: 120, 120, 120, 120, 120, 120
+PossibilityOfInstallationWaterCooling: True
+MaximumHeightOfTowerCooler: 160
+MaximumWidthOfVideoCard: -1
+MaximumHeightOfVideoCard: -1
+MaximumLengthOfVideoCard: 370
+
+Id: 28
+Name: MSI MAG FORGE 101M
+Cost: 5000
+Rating: 69
+ARRAY_FormFactor: Mini-ITX, Micro-ATX, Standard-ATX
+ARRAY_FanSlotsAndSize: 120, 120, 120, 120, 120
+PossibilityOfInstallationWaterCooling: True
+MaximumHeightOfTowerCooler: 160
+MaximumWidthOfVideoCard: -1
+MaximumHeightOfVideoCard: -1
+MaximumLengthOfVideoCard: 330
+

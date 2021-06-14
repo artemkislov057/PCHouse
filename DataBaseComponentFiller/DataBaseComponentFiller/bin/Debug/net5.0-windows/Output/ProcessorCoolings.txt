@@ -108,3 +108,63 @@ CoolerHeight: 154
 CoolerWidth: -1
 CoolerLength: -1
 
+Id: 26
+Name: DEEPCOOL GAMMAXX 400 EX
+Cost: 2900
+Rating: 85
+Socket: LGA 1200, LGA 1151, AM4, LGA 1151-v2, AM3, FM2, LGA 1155, AM3+, LGA 1366, AM2+, AM2, FM1, FM2+, LGA 1150
+Power: 180
+CoolerHeight: 158
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 27
+Name: Gamer Storm Lucifer V2
+Cost: 3500
+Rating: 86
+Socket: LGA 2066, LGA 1151, AM4, LGA 1151-v2, LGA 1200, LGA 1156, LGA 2011-3, AM3, LGA 1155, AM3+, LGA 775, LGA 1366, AM2+, AM2, FM1, LGA 2011, FM2, LGA 1150, FM2+
+Power: 200
+CoolerHeight: 168
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 28
+Name: ID-Cooling SE-225-XT BLACK
+Cost: 3500
+Rating: 87
+Socket: LGA 1151-v2, LGA 1151, AM4, LGA 2066, LGA 1156, LGA 1200, LGA 1155, LGA 2011, LGA 1150
+Power: 220
+CoolerHeight: 154
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 29
+Name: ID-Cooling SE-225-XT BLACK
+Cost: 3500
+Rating: 87
+Socket: LGA 1151-v2, LGA 1151, AM4, LGA 2066, LGA 1156, LGA 1200, LGA 1155, LGA 2011, LGA 1150
+Power: 220
+CoolerHeight: 154
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 30
+Name: ID-Cooling SE-207 TRX BLACK
+Cost: 3900
+Rating: 90
+Socket: sTRX4
+Power: 280
+CoolerHeight: 157
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 31
+Name: PCCooler GI-D66A HALO FRGB
+Cost: 4900
+Rating: 93
+Socket: LGA 1200, LGA 1151, AM4, LGA 2066, LGA 1151-v2, LGA 1156, AM3, LGA 1155, AM3+, LGA 775, LGA 1366, AM2+, AM2, FM1, LGA 2011, FM2, LGA 1150, FM2+
+Power: 230
+CoolerHeight: 160
+CoolerWidth: -1
+CoolerLength: -1
+

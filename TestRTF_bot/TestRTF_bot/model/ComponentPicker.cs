@@ -48,16 +48,16 @@ namespace TestRTF_bot.model
             Data = DataBase.DefaultDataBase();
         }
 
-        private const int processorDelta = 20;
+        private const int processorDelta = 10;
         private const int motherboardDelta = 20;
         private const int videoCardDelta = 20;
-        private const int ramDelta = 20;
-        private const int powerModuleDelta = 20;
-        private const int processorCoolingDelta = 20;
+        private const int ramDelta = 30;
+        private const int powerModuleDelta = 10;
+        private const int processorCoolingDelta = 30;
         private const int caseDelta = 20;
         private const int storageDelta = 20;
-        private const int m2Delta = 20;
-        private const int caseCoolingDelta = 20;
+        private const int m2Delta = 10;
+        private const int caseCoolingDelta = 30;
 
         public ConfigurationPC[] GetConfigurations(UserInformation userInformation)
         {

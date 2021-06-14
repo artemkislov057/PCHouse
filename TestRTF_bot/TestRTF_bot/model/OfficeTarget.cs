@@ -8,13 +8,13 @@ namespace TestRTF_bot.model
 {
     class OfficeTarget : ITarget
     {
-        public int ProcessorPercent => 40;
+        public int ProcessorPercent => 50;
 
-        public int MotherboardPercent => 15;
+        public int MotherboardPercent => 25;
 
-        public int RAMPercent => 20;
+        public int RAMPercent => 25;
 
-        public int VideoCardPercent => 20;
+        public int VideoCardPercent => 25;
 
         public int PowerModulePercent => 30;
 
@@ -22,7 +22,7 @@ namespace TestRTF_bot.model
 
         public int StoragePercent => 25;
 
-        public int M2Percent => 30;
+        public int M2Percent => 50;
 
         public int ProcessorCoolingPercent => 50;
 

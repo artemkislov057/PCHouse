@@ -150,3 +150,51 @@ Socket: AM4
 RamFrequency: -1
 EnergyConsumption: 76
 
+Id: 32
+Name: Intel Core i9-10850K OEM
+Cost: 35200
+Rating: 90
+Socket: LGA 1200
+RamFrequency: -1
+EnergyConsumption: 224
+
+Id: 33
+Name: Intel Core i9-10900K OEM
+Cost: 47000
+Rating: 93
+Socket: LGA 1200
+RamFrequency: -1
+EnergyConsumption: 250
+
+Id: 34
+Name: Intel Core i9-10900F
+Cost: 31900
+Rating: 95
+Socket: LGA 1200
+RamFrequency: -1
+EnergyConsumption: 250
+
+Id: 35
+Name: Intel Core i9-11900K OEM
+Cost: 48000
+Rating: 90
+Socket: LGA 1200
+RamFrequency: -1
+EnergyConsumption: 250
+
+Id: 36
+Name: AMD Ryzen 7 3700X OEM
+Cost: 23600
+Rating: 80
+Socket: AM4
+RamFrequency: -1
+EnergyConsumption: 65
+
+Id: 37
+Name: AMD Ryzen 7 5800X OEM
+Cost: 35600
+Rating: 90
+Socket: AM4
+RamFrequency: -1
+EnergyConsumption: 131
+

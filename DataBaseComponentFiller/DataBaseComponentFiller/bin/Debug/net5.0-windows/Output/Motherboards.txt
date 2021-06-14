@@ -178,3 +178,147 @@ CoolerHeight: -1
 CoolerWidth: -1
 CoolerLength: -1
 
+Id: 20
+Name: ASRock B550 Steel Legend
+Cost: 15500
+Rating: 85
+Socket: AM4
+RAM: DDR4
+RAMFrequency: 4733
+RAMTimings: CL16, CL17, CL18, CL19
+ARRAY_ProcessorCoolings: 4-pin, 4-pin
+ARRAY_CaseCoolings: 4-pin, 4-pin, 4-pin, 4-pin, 4-pin
+SataInterfaceCount: 6
+M2Length: 2280
+FormFactor: Standard-ATX
+PinPowerCP: 8-pin, 4+4-pin
+CoolerHeight: -1
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 21
+Name: ASRock B550 PG Velocita
+Cost: 18000
+Rating: 91
+Socket: AM4
+RAM: DDR4
+RAMFrequency: 4733
+RAMTimings: CL16, CL17, CL18
+ARRAY_ProcessorCoolings: 4-pin, 4-pin
+ARRAY_CaseCoolings: 4-pin, 4-pin, 4-pin, 4-pin, 4-pin
+SataInterfaceCount: 6
+M2Length: 2280
+FormFactor: Standard-ATX
+PinPowerCP: 4+4-pin, 4+4-pin
+CoolerHeight: -1
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 22
+Name: GIGABYTE X570 AORUS PRO
+Cost: 21500
+Rating: 92
+Socket: AM4
+RAM: DDR4
+RAMFrequency: 4400
+RAMTimings: CL16, CL17, CL18, CL19
+ARRAY_ProcessorCoolings: 4-pin, 4-pin
+ARRAY_CaseCoolings: 4-pin, 4-pin, 4-pin, 4-pin, 4-pin
+SataInterfaceCount: 6
+M2Length: 2280
+FormFactor: Standard-ATX
+PinPowerCP: 4+4-pin, 8-pin
+CoolerHeight: -1
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 23
+Name: GIGABYTE B560 AORUS PRO AX
+Cost: 15500
+Rating: 83
+Socket: LGA 1200
+RAM: DDR4
+RAMFrequency: 3200
+RAMTimings: CL16, CL17, CL18, CL19
+ARRAY_ProcessorCoolings: 4-pin, 4-pin
+ARRAY_CaseCoolings: 4-pin, 4-pin, 4-pin
+SataInterfaceCount: 6
+M2Length: 2280
+FormFactor: Standard-ATX
+PinPowerCP: 4+4-pin
+CoolerHeight: -1
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 24
+Name: MSI MPG Z490 GAMING EDGE WIFI
+Cost: 17000
+Rating: 86
+Socket: LGA 1200
+RAM: DDR4
+RAMFrequency: 4800
+RAMTimings: CL16, CL17, CL18, CL19
+ARRAY_ProcessorCoolings: 4-pin, 4-pin
+ARRAY_CaseCoolings: 4-pin, 4-pin, 4-pin, 4-pin, 4-pin, 4-pin
+SataInterfaceCount: 6
+M2Length: 2280
+FormFactor: Standard-ATX
+PinPowerCP: 4+4-pin, 4+4-pin
+CoolerHeight: -1
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 25
+Name: ASUS ROG STRIX Z490-A GAMING
+Cost: 20900
+Rating: 83
+Socket: LGA 1200
+RAM: DDR4
+RAMFrequency: 4600
+RAMTimings: CL16, CL17, CL18, CL19
+ARRAY_ProcessorCoolings: 4-pin, 4-pin
+ARRAY_CaseCoolings: 4-pin, 4-pin, 4-pin
+SataInterfaceCount: 6
+M2Length: 2280
+FormFactor: Standard-ATX
+PinPowerCP: 4+4-pin, 4+4-pin
+CoolerHeight: -1
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 26
+Name: ASUS ROG STRIX Z590-F GAMING WIFI
+Cost: 27200
+Rating: 90
+Socket: LGA 1200
+RAM: DDR4
+RAMFrequency: 5333
+RAMTimings: CL16, CL17, CL18, CL19
+ARRAY_ProcessorCoolings: 4-pin, 4-pin
+ARRAY_CaseCoolings: 4-pin, 4-pin, 4-pin, 4-pin, 4-pin, 4-pin
+SataInterfaceCount: 6
+M2Length: 2280
+FormFactor: Standard-ATX
+PinPowerCP: 4+4-pin, 4+4-pin
+CoolerHeight: -1
+CoolerWidth: -1
+CoolerLength: -1
+
+Id: 27
+Name: ASUS PRIME H410M-R-SI
+Cost: 6500
+Rating: 30
+Socket: LGA 1200
+RAM: DDR4
+RAMFrequency: 2933
+RAMTimings: CL15, CL16, CL17, CL18, CL19
+ARRAY_ProcessorCoolings: 4-pin
+ARRAY_CaseCoolings: 4-pin
+SataInterfaceCount: 4
+M2Length: -1
+FormFactor: Micro-ATX
+PinPowerCP: 4-pin
+CoolerHeight: -1
+CoolerWidth: -1
+CoolerLength: -1
+
