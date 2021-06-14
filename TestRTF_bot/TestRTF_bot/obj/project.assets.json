@@ -8202,24 +8202,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\artem\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\DNS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\PCHouse\\TestRTF_bot\\TestRTF_bot\\TestRTF_bot.csproj",
+      "projectUniqueName": "C:\\Users\\DNS\\Documents\\GitHub\\PCHouse\\TestRTF_bot\\TestRTF_bot\\TestRTF_bot.csproj",
       "projectName": "TestRTF_bot",
-      "projectPath": "E:\\PCHouse\\TestRTF_bot\\TestRTF_bot\\TestRTF_bot.csproj",
-      "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
-      "outputPath": "E:\\PCHouse\\TestRTF_bot\\TestRTF_bot\\obj\\",
+      "projectPath": "C:\\Users\\DNS\\Documents\\GitHub\\PCHouse\\TestRTF_bot\\TestRTF_bot\\TestRTF_bot.csproj",
+      "packagesPath": "C:\\Users\\DNS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DNS\\Documents\\GitHub\\PCHouse\\TestRTF_bot\\TestRTF_bot\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\DNS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8285,7 +8280,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

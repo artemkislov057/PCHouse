@@ -21,6 +21,7 @@ namespace TestRTF_bot.Models
             this.MinCost = minCost;
             this.MaxCost = maxCost;
             this.TargetInterface = target;
+            this.Budget = new Budget(minCost, maxCost);
         }
 
         public UserInformation()

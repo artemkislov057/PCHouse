@@ -9,13 +9,29 @@ namespace TestRTF_bot.Controllers
 {
     public class Buttons
     {
-        public static IReplyMarkup GetStartButtons()
+        public static IReplyMarkup GetButtonsByState(State state)
+        {
+            switch (state)
+            {
+                case State.Menu:
+                    return GetStartButton();
+                case State.ChoosingTarget:
+                    return GetTargetButtons();
+                case State.ChoosingBudget:
+                    return GetBudgetButtons();
+                case State.End:
+                    return GetAgainBackButtons();        
+            }
+            return new ReplyKeyboardMarkup();
+        }
+        public static IReplyMarkup GetStartButton()
         {
             return new ReplyKeyboardMarkup()
             {
                 Keyboard = new List<List<KeyboardButton>>()
                 {
-                    new List<KeyboardButton>() { new KeyboardButton() { Text = "Собрать ПК", } }
+                    new List<KeyboardButton>() { new KeyboardButton() { Text = "Подобрать ПК"} },
+                    new List<KeyboardButton>() { new KeyboardButton() { Text = "Наша команда"} }
                 }
             };
         }
@@ -31,7 +47,7 @@ namespace TestRTF_bot.Controllers
                                                  new KeyboardButton() { Text = "50 - 60 тыс. руб." }},
                     new List<KeyboardButton>() { new KeyboardButton() { Text = "60 - 70 тыс. руб." },
                                                  new KeyboardButton() { Text = "70 - 80 тыс. руб." },
-                                                 new KeyboardButton() { Text = "80 - 100 тыс. руб" }},
+                                                 new KeyboardButton() { Text = "80 - 100 тыс. руб." }},
                     new List<KeyboardButton>() { new KeyboardButton() { Text = "> 100 тыс. руб." } }
                 }
             };
@@ -51,13 +67,14 @@ namespace TestRTF_bot.Controllers
             };
         }
 
-        public static IReplyMarkup GetAgainButton()
+        public static IReplyMarkup GetAgainBackButtons()
         {
             return new ReplyKeyboardMarkup()
             {
                 Keyboard = new List<List<KeyboardButton>>()
                 {
-                    new List<KeyboardButton>() { new KeyboardButton() { Text = "Начать снова" } }
+                    new List<KeyboardButton>() { new KeyboardButton() { Text = "Подобрать другой ПК" } },
+                    new List<KeyboardButton>() { new KeyboardButton() { Text = "Назад" } }
                 }
             };
         }
