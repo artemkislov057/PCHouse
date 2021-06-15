@@ -27,5 +27,25 @@ namespace TestRTF_bot.model
         public int ProcessorCoolingPercent => 50;
 
         public int CaseCoolingPercent => 100;
+
+        public double ProcessorRating => 0.4;
+
+        public double MotherboardRating => 0.4;
+
+        public double RAMRating => 0.3;
+
+        public double VideoCardRating => 0.8;
+
+        public double PowerModuleRating => 0.6;
+
+        public double CaseRating => 0.4;
+
+        public double StorageRating => 0.8;
+
+        public double M2Rating => 0.6;
+
+        public double ProcessorCoolingRating => 0.5;
+
+        public double CaseCoolingRating => 0.4;
     }
 }

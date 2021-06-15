@@ -18,5 +18,15 @@ namespace TestRTF_bot.model
         int M2Percent { get; }
         int ProcessorCoolingPercent { get; }
         int CaseCoolingPercent { get; }
+        double ProcessorRating { get; }
+        double MotherboardRating { get; }
+        double RAMRating { get; }
+        double VideoCardRating { get; }
+        double PowerModuleRating { get; }
+        double CaseRating { get; }
+        double StorageRating { get; }
+        double M2Rating { get; }
+        double ProcessorCoolingRating { get; }
+        double CaseCoolingRating { get; }
     }
 }

@@ -61,16 +61,16 @@ namespace TestRTF_bot.Models
         {
             get
             {
-                return Processor.Rating * 1.0
-                    + Motherboard.Rating * 0.9
-                    + VideoCard.Rating * 1.0
-                    + RAM.Rating * 0.5
-                    + PowerModule.Rating * 0.1
-                    + ProcessorCooling.Rating * 0.05
-                    + Case.Rating * 0.1
-                    + Storage.Rating * 0.1
-                    + M2.Rating * 0.15
-                    + CaseCooling.Rating * 0.05;
+                return Processor.Rating * UserInformation.TargetInterface.ProcessorRating
+                    + Motherboard.Rating * UserInformation.TargetInterface.MotherboardRating
+                    + VideoCard.Rating * UserInformation.TargetInterface.VideoCardRating
+                    + RAM.Rating * UserInformation.TargetInterface.RAMRating
+                    + PowerModule.Rating * UserInformation.TargetInterface.PowerModuleRating
+                    + ProcessorCooling.Rating * UserInformation.TargetInterface.ProcessorCoolingRating
+                    + Case.Rating * UserInformation.TargetInterface.CaseRating
+                    + Storage.Rating * UserInformation.TargetInterface.StorageRating
+                    + M2.Rating * UserInformation.TargetInterface.M2Rating
+                    + CaseCooling.Rating * UserInformation.TargetInterface.CaseCoolingRating;
             }
         }
 
