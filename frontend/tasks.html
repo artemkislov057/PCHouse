@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.min.css">
+    <title>PChouse</title>
+</head>
+<body>
+    <header class="header">
+    <div class="header-container">
+        <a href="main.html"class="header__logo"><strong>PC</strong>house</a>
+        <div class="header__title">create your dream</div>
+    </div>
+</header>
+    <div class="tasks">
+    <div class="tasks-container">
+        <div class="tasks-content">
+            <form class="tasks-content__form">
+                <div class="tasks-content__form-title">Выбери нужную задачу</div>
+
+                <div class="tasks-content__form--wrapper-rows">
+                    <div class="tasks-content__form-row">
+                        <input type="radio" id="games" class="input-row" name="task" checked/>
+                        <label for="games" class="label-row">Для игр</label>
+                    </div>
+                    <div class="tasks-content__form-row">
+                        <input type="radio" id="video" class="input-row" name="task"/>
+                        <label for="video" class="label-row">Для работы с видео</label>
+                    </div>
+                    <div class="tasks-content__form-row">
+                        <input type="radio" id="office" class="input-row" name="task"/>
+                        <label for="office" class="label-row">Для офиса</label>
+                    </div>
+                    <div class="tasks-content__form-row">
+                        <input type="radio" id="development" class="input-row" name="task"/>
+                        <label for="development" class="label-row">Для программирования</label>
+                    </div>
+                </div>
+
+                <div class="tasks-content__form-title">Бюджет</div>
+
+                <div class="tasks-content__form--wrapper-btns">
+                    <div class="tasks-content__form-btn">
+                        <input type="radio" id="from90" name="budget" class="input-btn" checked/>
+                        <label for="from90" class="label-btn">От 90 000</label>
+                    </div>
+                    <div class="tasks-content__form-btn">
+                        <input type="radio" id="upto100" name="budget" class="input-btn"/>
+                        <label for="upto100" class="label-btn">До 100 000</label>
+                    </div>
+                </div>
+
+                <button type="submit" class="tasks-content__form-submit">Подобрать ПК</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+    <script src="./script/script.min.js"></script>
+</body>
+</html>
