@@ -27,7 +27,7 @@ namespace TestRTF_bot.Controllers
             }
             if (e.Message.Text == "Подобрать ПК")
             {
-                users[e.Message.Chat.Id].State = State.ChoosingBudget;
+                users[e.Message.Chat.Id].State = State.ChoosingMinBudget;
                 return;
             }
             await client.SendTextMessageAsync(

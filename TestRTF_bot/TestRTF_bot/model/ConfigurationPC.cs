@@ -75,5 +75,75 @@ namespace TestRTF_bot.Models
         }
 
         public int Cost => Components?.Sum(component => component.Cost) ?? 0;
+
+        public override string ToString()
+        {
+            var result = new StringBuilder();
+            if (Processor != null)
+            {
+                result.Append("Процессор: ");
+                result.Append(Processor.Name);
+                result.Append(" [" + Processor.Cost);
+                result.Append(" руб.]\n");
+            }
+            if (Motherboard != null)
+            {
+                result.Append("Материнская плата: ");
+                result.Append(Motherboard.Name);
+                result.Append(" [" + Motherboard.Cost + " руб.]\n");
+            }
+            if (VideoCard != null)
+            {
+                result.Append("Видеокарта: ");
+                result.Append(VideoCard.Name);
+                result.Append(" [" + VideoCard.Cost + " руб.]\n");
+            }
+            if (RAM != null)
+            {
+                result.Append("Оперативная память: ");
+                result.Append(RAM.Name);
+                result.Append(" [" + RAM.Cost + " руб.]\n");
+            }
+            if (Storage != null)
+            {
+                result.Append("Накопитель: ");
+                result.Append(Storage.Name);
+                result.Append(" [" + Storage.Cost + " руб.]\n");
+            }
+            if (M2 != null)
+            {
+                result.Append("SSD: ");
+                result.Append(M2.Name);
+                result.Append(" [" + M2.Cost + " руб.]\n");
+            }
+            if (CaseCooling != null)
+            {
+                result.Append("Охлаждение корпуса: ");
+                result.Append(CaseCooling.Name);
+                result.Append(" [" + CaseCooling.Cost + " руб.]\n");
+            }
+            if (ProcessorCooling != null)
+            {
+                result.Append("Охлаждение корпуса: ");
+                result.Append(ProcessorCooling.Name);
+                result.Append(" [" + ProcessorCooling.Cost + " руб.]\n");
+            }
+            if (PowerModule != null)
+            {
+                result.Append("Блок питания: ");
+                result.Append(PowerModule.Name);
+                result.Append(" [" + PowerModule.Cost + " руб.]\n");
+            }
+            if (Case != null)
+            {
+                result.Append("Корпус: ");
+                result.Append(Case.Name);
+                result.Append(" [" + Case.Cost + " руб.]\n");
+            }
+            result.Append("[Стоимость сборки " + Cost + " руб.]\n");
+            if (result.Length > 0)
+                result.Remove(result.Length - 1, 1);
+            return result.ToString();
+        }
     }
 }

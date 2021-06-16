@@ -9,7 +9,8 @@ namespace TestRTF_bot.Controllers
     public enum State
     {
         Menu,
-        ChoosingBudget,
+        ChoosingMinBudget,
+        ChoosingMaxBudget,
         ChoosingTarget,
         End
     }

@@ -8,13 +8,18 @@ namespace TestRTF_bot.Controllers
 {
     public class Budget
     {
-        public int MinValue { get; }
-        public int MaxValue { get; }
+        public int MinValue { get; set; }
+        public int MaxValue { get; set; }
 
         public Budget(int MinValue, int MaxValue)
         {
             this.MinValue = MinValue;
             this.MaxValue = MaxValue;
+        }
+
+        public Budget()
+        {
+
         }
 
         public override string ToString()

@@ -17,8 +17,8 @@ namespace TestRTF_bot.Controllers
                     return GetStartButton();
                 case State.ChoosingTarget:
                     return GetTargetButtons();
-                case State.ChoosingBudget:
-                    return GetBudgetButtons();
+                //case State.ChoosingBudget:
+                //    return GetBudgetButtons();
                 case State.End:
                     return GetAgainBackButtons();        
             }
