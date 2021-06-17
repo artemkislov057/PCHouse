@@ -30,16 +30,6 @@ namespace TestRTF_bot.Controllers
             { "Работа с видео", Target.VideoEditing },
             { "Гейминг", Target.Gaming }
         };
-        private Dictionary<string, Budget> possibleBudgets = new Dictionary<string, Budget>
-        {
-            { "< 40 тыс. руб.", new Budget(30000, 40000) },
-            { "40 - 50 тыс. руб.", new Budget(40000, 50000) },
-            { "50 - 60 тыс. руб.", new Budget(50000, 60000) },
-            { "60 - 70 тыс. руб.", new Budget(60000, 70000) },
-            { "70 - 80 тыс. руб.", new Budget(70000, 80000) },
-            { "80 - 100 тыс. руб.", new Budget(80000, 100000) },
-            { "> 100 тыс. руб.", new Budget(100000, 120000) }
-        };
 
         public async void OnMessageGettingComponent(object sender, MessageEventArgs e)
         {
@@ -47,7 +37,6 @@ namespace TestRTF_bot.Controllers
             if (message == null)
                 return;
             var userID = message.Chat.Id;
-            Console.WriteLine($"{userID} Пришло сообщение с текстом: {message.Text}");
             if (!users.ContainsKey(message.Chat.Id))
                 users[message.Chat.Id] = new UserState(new UserInformation(), State.ChoosingMinBudget);
             if (message.Text == "Подобрать другой ПК")
@@ -147,12 +136,6 @@ namespace TestRTF_bot.Controllers
         {
             if (possibleTargets.ContainsKey(text))
                 userState.Info.Target = possibleTargets[text];
-        }
-
-        private void SetBudget(UserState userState, string text)
-        {
-            if (possibleBudgets.ContainsKey(text))
-                userState.Info.Budget = possibleBudgets[text];
         }
     }
 }
