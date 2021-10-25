@@ -8,6 +8,7 @@ namespace TestRTF_bot
 {
     class Program
     {
+        //comment for adding in list of repos
         private static BotController botController;
         static void Main(string[] args)
         {
